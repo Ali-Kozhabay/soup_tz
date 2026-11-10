@@ -1,0 +1,2 @@
+CREATE DATABASE soup_test;
+CREATE DATABASE soup_chaos;

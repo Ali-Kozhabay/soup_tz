@@ -1,0 +1,12 @@
+# Isolated verification: private database/cache ports and an ephemeral API port.
+services:
+  postgres:
+    ports: !reset []
+  redis:
+    ports: !reset []
+  api:
+    ports: !override
+      - target: 8000
+        published: "0"
+        host_ip: 127.0.0.1
+        protocol: tcp

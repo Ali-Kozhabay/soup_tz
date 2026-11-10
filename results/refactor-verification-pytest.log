@@ -1,0 +1,52 @@
+......................                                                   [100%]
+================================ tests coverage ================================
+______________ coverage: platform darwin, python 3.12.13-final-0 _______________
+
+Name                                              Stmts   Miss Branch BrPart  Cover   Missing
+---------------------------------------------------------------------------------------------
+src/__init__.py                                       0      0      0      0   100%
+src/api/__init__.py                                   0      0      0      0   100%
+src/api/web/__init__.py                               0      0      0      0   100%
+src/api/web/dependencies.py                           7      0      0      0   100%
+src/api/web/exceptions.py                            17      2      2      0    89%   26-27
+src/api/web/health/__init__.py                        0      0      0      0   100%
+src/api/web/health/routers.py                        26      3      0      0    88%   14, 24-25
+src/api/web/jobs/__init__.py                          0      0      0      0   100%
+src/api/web/jobs/routers.py                          25      0      0      0   100%
+src/api/web/jobs/schemas.py                          18      0      0      0   100%
+src/api/web/middleware.py                            14      0      0      0   100%
+src/application/__init__.py                           0      0      0      0   100%
+src/application/services/__init__.py                  0      0      0      0   100%
+src/application/services/jobs.py                     19      0      2      0   100%
+src/config.py                                        20      2      4      2    83%   21, 23
+src/core/__init__.py                                  0      0      0      0   100%
+src/core/dto/__init__.py                              0      0      0      0   100%
+src/core/dto/jobs.py                                 40      0      0      0   100%
+src/core/enums/__init__.py                            0      0      0      0   100%
+src/core/enums/jobs.py                                8      0      0      0   100%
+src/core/exceptions.py                               10      0      0      0   100%
+src/core/interfaces/__init__.py                       0      0      0      0   100%
+src/core/interfaces/repositories/__init__.py          0      0      0      0   100%
+src/core/interfaces/repositories/jobs.py              4      0      0      0   100%
+src/core/interfaces/storage/__init__.py               0      0      0      0   100%
+src/core/interfaces/storage/notifications.py          2      0      0      0   100%
+src/core/logging.py                                  13     13      2      0     0%   1-22
+src/infrastructure/__init__.py                        0      0      0      0   100%
+src/infrastructure/adapters/__init__.py               0      0      0      0   100%
+src/infrastructure/adapters/di/__init__.py            0      0      0      0   100%
+src/infrastructure/adapters/di/container.py          23      0      0      0   100%
+src/infrastructure/adapters/storage/__init__.py       0      0      0      0   100%
+src/infrastructure/adapters/storage/redis.py         36     16      4      0    50%   26-35, 38-44
+src/infrastructure/database/__init__.py               0      0      0      0   100%
+src/infrastructure/database/models/__init__.py        3      0      0      0   100%
+src/infrastructure/database/models/base.py            3      0      0      0   100%
+src/infrastructure/database/models/jobs.py           38      0      0      0   100%
+src/infrastructure/database/session.py                6      0      0      0   100%
+src/infrastructure/repositories/__init__.py           0      0      0      0   100%
+src/infrastructure/repositories/cursors.py           25      2      6      2    87%   23, 26
+src/infrastructure/repositories/jobs.py             120      8     32      4    91%   56, 67, 68->72, 79-88, 94
+src/main.py                                          26      2      2      1    89%   40-42
+src/worker.py                                        79     79     16      0     0%   1-108
+---------------------------------------------------------------------------------------------
+TOTAL                                               582    127     70      9    75%
+22 passed in 4.91s

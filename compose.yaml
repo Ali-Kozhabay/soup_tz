@@ -1,0 +1,105 @@
+name: soup-queue
+
+x-environment: &environment
+  SOUP_DATABASE_URL: postgresql+asyncpg://soup:soup@postgres:5432/soup
+  SOUP_REDIS_URL: redis://redis:6379/0
+
+x-app: &app
+  build:
+    context: .
+    target: runtime
+  environment: *environment
+  init: true
+
+services:
+  postgres:
+    image: postgres:17-alpine
+    environment:
+      POSTGRES_USER: soup
+      POSTGRES_PASSWORD: soup
+      POSTGRES_DB: soup
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+      - ./scripts/init-databases.sql:/docker-entrypoint-initdb.d/extra.sql:ro
+    ports:
+      - "127.0.0.1:5432:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U soup -d soup"]
+      interval: 2s
+      timeout: 2s
+      retries: 20
+
+  redis:
+    image: redis:7.4-alpine
+    command: ["redis-server", "--save", "", "--appendonly", "no"]
+    ports:
+      - "127.0.0.1:6379:6379"
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 2s
+      timeout: 2s
+      retries: 20
+
+  migrate:
+    <<: *app
+    command: ["alembic", "upgrade", "head"]
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+  api:
+    <<: *app
+    ports:
+      - "127.0.0.1:8000:8000"
+    depends_on:
+      migrate:
+        condition: service_completed_successfully
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/health/ready', timeout=3)"]
+      interval: 5s
+      timeout: 4s
+      retries: 10
+
+  worker:
+    <<: *app
+    command: ["python", "-m", "src.worker"]
+    depends_on:
+      migrate:
+        condition: service_completed_successfully
+    deploy:
+      replicas: 8
+    restart: unless-stopped
+    stop_grace_period: 5s
+
+  test:
+    build:
+      context: .
+      target: tools
+    profiles: ["tools"]
+    environment:
+      <<: *environment
+      SOUP_TEST_DATABASE_URL: postgresql+asyncpg://soup:soup@postgres:5432/soup_test
+    depends_on:
+      postgres:
+        condition: service_healthy
+    command: ["pytest", "-q"]
+
+  chaos:
+    build:
+      context: .
+      target: tools
+    profiles: ["tools"]
+    init: true
+    environment:
+      <<: *environment
+      SOUP_DATABASE_URL: postgresql+asyncpg://soup:soup@postgres:5432/soup_chaos
+    volumes:
+      - ./results:/app/results
+    depends_on:
+      postgres:
+        condition: service_healthy
+    command: ["python", "scripts/chaos.py", "--jobs", "10000", "--workers", "8"]
+
+volumes:
+  postgres-data:

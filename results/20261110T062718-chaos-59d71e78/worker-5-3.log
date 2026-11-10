@@ -1,0 +1,644 @@
+{"time": "2026-11-10T06:27:29.692884+00:00", "level": "INFO", "logger": "__main__", "message": "worker_started owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:29.705050+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=8a6247d3-1e14-40fc-8b50-4d1e48101b95 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:29.788835+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=8a6247d3-1e14-40fc-8b50-4d1e48101b95 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:29.791430+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=3e8dae9e-fce6-420b-9bb2-877dd451e637 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:29.862124+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=3e8dae9e-fce6-420b-9bb2-877dd451e637 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:29.864401+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=6c750835-ed2b-4ffa-a759-1468a6533276 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:29.893321+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=6c750835-ed2b-4ffa-a759-1468a6533276 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:29.895754+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=c7798f6f-2ff3-411f-8a24-53a11ec4c51f fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:29.935568+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=c7798f6f-2ff3-411f-8a24-53a11ec4c51f fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:29.938070+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=9c810d1d-6de2-4b08-9152-031a40824c3a fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:30.020200+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=9c810d1d-6de2-4b08-9152-031a40824c3a fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:30.022687+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=a579c2cd-5050-41d3-a5ae-9497b72d60a5 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:30.071819+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=a579c2cd-5050-41d3-a5ae-9497b72d60a5 fence=1 accepted=True error=simulated_training_failure"}
+{"time": "2026-11-10T06:27:30.074323+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=e18cbf9a-86d9-4e42-85a7-a58a3807395f fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:30.103846+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=e18cbf9a-86d9-4e42-85a7-a58a3807395f fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:30.106297+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=547a1183-3acd-4cdb-8da3-2fcc073cd536 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:30.169000+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=547a1183-3acd-4cdb-8da3-2fcc073cd536 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:30.171344+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=7596a4df-b422-4339-8a34-6395fe0e4fe3 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:30.222004+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=7596a4df-b422-4339-8a34-6395fe0e4fe3 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:30.224177+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=e27dc9c1-1f60-4a11-82f3-a5a45144b028 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:30.303704+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=e27dc9c1-1f60-4a11-82f3-a5a45144b028 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:30.306206+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=a3c46b5b-88d7-4ef5-ad6c-a663a4d46f71 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:30.354972+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=a3c46b5b-88d7-4ef5-ad6c-a663a4d46f71 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:30.357281+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=aa1922ea-d99a-4f27-9986-c37f5cb88c3f fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:30.436719+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=aa1922ea-d99a-4f27-9986-c37f5cb88c3f fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:30.439024+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=8eb5b898-bdb1-4165-9956-2a2206174a6d fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:30.503363+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=8eb5b898-bdb1-4165-9956-2a2206174a6d fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:30.505610+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=786313e5-af8c-463b-a192-2a6cbaaec8e2 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:30.579059+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=786313e5-af8c-463b-a192-2a6cbaaec8e2 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:30.581034+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=e9897844-d720-4131-a44e-be520495f9f0 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:30.651487+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=e9897844-d720-4131-a44e-be520495f9f0 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:30.653620+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=0fa27006-5c98-4ce6-ac3f-d8584e681c6b fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:30.707119+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=0fa27006-5c98-4ce6-ac3f-d8584e681c6b fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:30.709383+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=cf431573-dce7-498c-a204-e1d431994369 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:30.763309+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=cf431573-dce7-498c-a204-e1d431994369 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:30.765633+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=78967f47-5213-454b-9b04-d71ce4216540 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:30.826555+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=78967f47-5213-454b-9b04-d71ce4216540 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:30.828805+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=ecd7b109-b13e-45ae-ba2e-675c44fe80a9 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:30.888570+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=ecd7b109-b13e-45ae-ba2e-675c44fe80a9 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:30.890842+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=9c268716-d516-4d20-b816-51019feb381c fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:30.959459+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=9c268716-d516-4d20-b816-51019feb381c fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:30.961725+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=6945a12b-ec20-486d-b78c-2e2935ca51a1 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:31.044827+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=6945a12b-ec20-486d-b78c-2e2935ca51a1 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:31.047179+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=83944d28-0c42-41e1-859b-00285ab90b8d fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:31.081006+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=83944d28-0c42-41e1-859b-00285ab90b8d fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:31.083336+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=4302967c-6dc6-4743-b372-e0d4738b3b5b fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:31.159424+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=4302967c-6dc6-4743-b372-e0d4738b3b5b fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:31.161554+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=57824586-7287-4db5-ba10-5864dc3ae23f fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:31.242323+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=57824586-7287-4db5-ba10-5864dc3ae23f fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:31.244544+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=8f35734e-2403-4f8c-a760-9f726bf57fd8 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:31.281027+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=8f35734e-2403-4f8c-a760-9f726bf57fd8 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:31.283260+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=81427f82-a56a-4727-afef-37f366eee992 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:31.340785+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=81427f82-a56a-4727-afef-37f366eee992 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:31.343272+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=6a01b1ed-a261-42de-a9d9-fb719be45ee6 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:31.385658+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=6a01b1ed-a261-42de-a9d9-fb719be45ee6 fence=1 accepted=True error=simulated_training_failure"}
+{"time": "2026-11-10T06:27:31.387952+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=f3587a49-f20a-418b-87d8-c4dd58ffd813 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:31.431970+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=f3587a49-f20a-418b-87d8-c4dd58ffd813 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:31.434202+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=95a97baf-951d-4088-90b6-8499570236a3 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:31.498998+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=95a97baf-951d-4088-90b6-8499570236a3 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:31.501139+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=bc36b6ed-6093-4c12-9762-da0db24daa22 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:31.534016+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=bc36b6ed-6093-4c12-9762-da0db24daa22 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:31.536419+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=37e2e04c-7697-4302-a415-e22fc4f217ea fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:31.569104+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=37e2e04c-7697-4302-a415-e22fc4f217ea fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:31.572001+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=10252684-44fc-4477-9c0a-c7e6e126ef52 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:31.653884+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=10252684-44fc-4477-9c0a-c7e6e126ef52 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:31.656131+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=5fb0bdf5-7bb4-4e63-9d55-db76b4cb2969 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:31.713477+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=5fb0bdf5-7bb4-4e63-9d55-db76b4cb2969 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:31.715926+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=659bb003-2075-4f95-afb8-a776b75441fb fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:31.761387+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=659bb003-2075-4f95-afb8-a776b75441fb fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:31.763823+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=7f62ce10-0367-4567-8485-138dff58cc01 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:31.828754+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=7f62ce10-0367-4567-8485-138dff58cc01 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:31.831076+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=07d27362-813e-47ac-ac21-c0481a350e87 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:31.891566+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=07d27362-813e-47ac-ac21-c0481a350e87 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:31.893785+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=f8488954-aeb8-4193-9721-80636c0c9404 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:31.961603+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=f8488954-aeb8-4193-9721-80636c0c9404 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:31.964058+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=915320c6-f473-455b-9c09-b4047da740a7 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:32.046157+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=915320c6-f473-455b-9c09-b4047da740a7 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:32.048309+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=068044dd-4dbc-480d-a43e-bba467924e4b fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:32.095640+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=068044dd-4dbc-480d-a43e-bba467924e4b fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:32.097906+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=758f85f3-c0aa-4093-9204-308548f546d9 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:32.139940+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=758f85f3-c0aa-4093-9204-308548f546d9 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:32.142225+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=262acfdf-9c37-4e00-965b-753763abc30c fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:32.198829+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=262acfdf-9c37-4e00-965b-753763abc30c fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:32.201159+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=665843c9-d9d7-4340-a19b-b8a40b01a77a fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:32.246700+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=665843c9-d9d7-4340-a19b-b8a40b01a77a fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:32.249014+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=a76c7ac8-63aa-408e-807a-f4d760a17b17 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:32.307536+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=a76c7ac8-63aa-408e-807a-f4d760a17b17 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:32.309882+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=d18974e5-1594-4cb5-b020-a8ffa9903695 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:32.379533+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=d18974e5-1594-4cb5-b020-a8ffa9903695 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:32.382088+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=a6380f7c-d774-4c4f-bf26-7444e8ecb6aa fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:32.458443+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=a6380f7c-d774-4c4f-bf26-7444e8ecb6aa fence=1 accepted=True error=simulated_training_failure"}
+{"time": "2026-11-10T06:27:32.460790+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=f80607d4-fd4a-4ab7-ae77-e57d272ebc56 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:32.517200+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=f80607d4-fd4a-4ab7-ae77-e57d272ebc56 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:32.519588+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=0bec793e-bbb3-46a3-9ca8-eef87738226c fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:32.558846+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=0bec793e-bbb3-46a3-9ca8-eef87738226c fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:32.560980+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=7f49fa61-aa94-4482-a9f0-6632a5abb5c3 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:32.618695+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=7f49fa61-aa94-4482-a9f0-6632a5abb5c3 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:32.620818+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=f5d631e8-943c-4c81-866b-38f440eed88f fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:32.675325+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=f5d631e8-943c-4c81-866b-38f440eed88f fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:32.677425+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=5dea16b5-2f38-4742-a603-d0bb9f547c0b fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:32.719223+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=5dea16b5-2f38-4742-a603-d0bb9f547c0b fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:32.721905+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=df794705-c91e-4196-abed-93f502c65a8e fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:32.780356+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=df794705-c91e-4196-abed-93f502c65a8e fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:32.782439+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=d5bb40f4-293e-4558-96ac-c621086624d4 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:32.862739+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=d5bb40f4-293e-4558-96ac-c621086624d4 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:32.865248+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=7b9ff002-f8c1-4965-91bc-42328ed25dc4 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:32.940791+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=7b9ff002-f8c1-4965-91bc-42328ed25dc4 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:32.942834+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=729add80-2368-4d7d-b02e-efed6f88e371 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:33.018137+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=729add80-2368-4d7d-b02e-efed6f88e371 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:33.020628+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=0cdfe94b-f075-4612-af49-456df57c779b fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:33.047667+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=0cdfe94b-f075-4612-af49-456df57c779b fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:33.050242+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=34840948-3e53-4639-8276-91676c2a7610 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:33.090551+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=34840948-3e53-4639-8276-91676c2a7610 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:33.092764+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=c33aaf71-769e-455f-a765-550d842e1204 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:33.158055+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=c33aaf71-769e-455f-a765-550d842e1204 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:33.160665+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=9fcaaf26-e592-4ea4-8158-a8f991d94ed1 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:33.241032+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=9fcaaf26-e592-4ea4-8158-a8f991d94ed1 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:33.243223+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=73eae15a-816e-4bc4-9b0b-05932a4abf52 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:33.265498+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=73eae15a-816e-4bc4-9b0b-05932a4abf52 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:33.267912+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=6f28a3bb-c44b-4da3-aac6-424ef45add5e fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:33.337533+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=6f28a3bb-c44b-4da3-aac6-424ef45add5e fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:33.340590+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=81385153-931e-4613-8c0e-1291eb035d9c fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:33.423201+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=81385153-931e-4613-8c0e-1291eb035d9c fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:33.425319+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=ee172a8e-ced6-4198-9369-421a9819a7d2 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:33.500754+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=ee172a8e-ced6-4198-9369-421a9819a7d2 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:33.502746+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=346e8e2f-11c2-4531-9b77-3eae859b214e fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:33.582521+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=346e8e2f-11c2-4531-9b77-3eae859b214e fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:33.585562+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=77d47a59-9a72-494e-bf38-7fbaee4f24e2 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:33.667907+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=77d47a59-9a72-494e-bf38-7fbaee4f24e2 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:33.670032+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=bb23385c-5b19-4d75-8edb-f95800d216e5 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:33.748040+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=bb23385c-5b19-4d75-8edb-f95800d216e5 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:33.750249+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=3d90b62b-69d6-4493-a046-00a19bc9fc70 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:33.785400+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=3d90b62b-69d6-4493-a046-00a19bc9fc70 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:33.787491+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=a3e0f5e6-58b1-467e-af3c-b7d7f2b4027a fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:33.833584+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=a3e0f5e6-58b1-467e-af3c-b7d7f2b4027a fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:33.835671+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=10fd27f8-00c2-4c72-81ac-97e948f890f1 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:33.915336+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=10fd27f8-00c2-4c72-81ac-97e948f890f1 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:33.917933+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=d343973d-6ea1-49a9-8e7f-1ff3bfb4a6be fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:33.977713+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=d343973d-6ea1-49a9-8e7f-1ff3bfb4a6be fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:33.979938+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=0cf55562-cf19-4f13-af6f-5c300934e78c fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:34.016448+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=0cf55562-cf19-4f13-af6f-5c300934e78c fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:34.018723+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=339f179c-6ba9-45a0-9653-17c65bbe86dd fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:34.048238+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=339f179c-6ba9-45a0-9653-17c65bbe86dd fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:34.050421+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=3f07e76a-e481-42f0-88fc-68bb39da5c94 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:34.099057+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=3f07e76a-e481-42f0-88fc-68bb39da5c94 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:34.101309+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=fc7a9e64-22dd-4932-8a81-34f1b2b48948 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:34.145681+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=fc7a9e64-22dd-4932-8a81-34f1b2b48948 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:34.147901+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=8e954455-1987-4bb2-a145-c778dededf60 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:34.201353+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=8e954455-1987-4bb2-a145-c778dededf60 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:34.203713+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=271a378c-3031-4d41-89b0-91d100e7052e fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:34.280618+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=271a378c-3031-4d41-89b0-91d100e7052e fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:34.282784+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=60903bf3-57ee-451e-8707-49cb0174e9d4 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:34.308467+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=60903bf3-57ee-451e-8707-49cb0174e9d4 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:34.310753+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=3deff93c-b0ef-41e2-ba39-391379e7687c fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:34.349184+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=3deff93c-b0ef-41e2-ba39-391379e7687c fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:34.352764+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=b7065f5c-3836-4da2-80ab-1b76b1a77782 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:34.414582+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=b7065f5c-3836-4da2-80ab-1b76b1a77782 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:34.417297+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=c3f7177d-b7f8-44b2-98cc-c0193348534c fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:34.472112+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=c3f7177d-b7f8-44b2-98cc-c0193348534c fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:34.475094+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=51dbf408-b0f9-48ce-9817-be417a10a42b fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:34.503168+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=51dbf408-b0f9-48ce-9817-be417a10a42b fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:34.505518+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=d2aba322-8e66-433d-87fc-c983967c7658 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:34.530004+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=d2aba322-8e66-433d-87fc-c983967c7658 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:34.532440+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=e28b098f-f962-4a49-8960-47148c1361db fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:34.593135+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=e28b098f-f962-4a49-8960-47148c1361db fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:34.595451+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=3853cc89-ab34-4ff5-bbc4-3bbebfa1b639 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:34.628618+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=3853cc89-ab34-4ff5-bbc4-3bbebfa1b639 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:34.631062+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=ed64b419-806a-4e8f-a6e6-5ac7f047ce55 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:34.694745+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=ed64b419-806a-4e8f-a6e6-5ac7f047ce55 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:34.697169+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=06db0009-81c5-4f5f-942c-05c30fe565e1 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:34.720024+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=06db0009-81c5-4f5f-942c-05c30fe565e1 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:34.722336+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=9197a152-e37b-4e34-ae8a-ba35df28268b fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:34.763122+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=9197a152-e37b-4e34-ae8a-ba35df28268b fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:34.765715+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=dd278dc2-a46c-4142-bc38-a96895adb3d4 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:34.803706+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=dd278dc2-a46c-4142-bc38-a96895adb3d4 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:34.806335+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=3b17feda-0a40-41b9-b4dc-6b84a76115cc fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:34.868129+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=3b17feda-0a40-41b9-b4dc-6b84a76115cc fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:34.870776+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=835ffb22-a542-456d-8d74-e4f61a6c8c59 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:34.905319+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=835ffb22-a542-456d-8d74-e4f61a6c8c59 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:34.907766+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=59805f9e-4fe0-458f-abff-986a12ae12f5 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:34.952784+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=59805f9e-4fe0-458f-abff-986a12ae12f5 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:34.955235+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=cabba04c-b8c5-44af-8ba5-a2b37646d1ed fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:35.029327+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=cabba04c-b8c5-44af-8ba5-a2b37646d1ed fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:35.031810+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=2e56d60f-f5d3-4c83-92f2-d97977cd4d9d fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:35.078812+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=2e56d60f-f5d3-4c83-92f2-d97977cd4d9d fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:35.081116+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=2f0903db-2bf1-4b99-96d6-c4a26d1cbdab fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:35.158208+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=2f0903db-2bf1-4b99-96d6-c4a26d1cbdab fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:35.160812+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=3c80dba2-5aa3-4432-ac83-12118b4b0bdb fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:35.189620+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=3c80dba2-5aa3-4432-ac83-12118b4b0bdb fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:35.192204+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=c7a6f2be-858e-4638-8019-d2acc19fbc33 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:35.256215+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=c7a6f2be-858e-4638-8019-d2acc19fbc33 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:35.258952+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=91cab4f5-4d6e-4514-ba06-c6fdeb7e4514 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:35.331871+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=91cab4f5-4d6e-4514-ba06-c6fdeb7e4514 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:35.334317+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=9e57c4dd-5179-4cb9-b418-0c70f5e75469 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:35.415089+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=9e57c4dd-5179-4cb9-b418-0c70f5e75469 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:35.417598+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=8ecec504-71a7-470b-b15f-8ac1fb29c247 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:35.498009+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=8ecec504-71a7-470b-b15f-8ac1fb29c247 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:35.500428+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=f2cd0683-bc5e-4c91-86e8-ac721381d97e fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:35.578275+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=f2cd0683-bc5e-4c91-86e8-ac721381d97e fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:35.580774+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=4190813a-e292-4d66-8179-ea69556ddb30 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:35.658211+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=4190813a-e292-4d66-8179-ea69556ddb30 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:35.660621+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=d6c2d0fa-4949-485f-a7ca-c6afc6e1f064 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:35.735728+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=d6c2d0fa-4949-485f-a7ca-c6afc6e1f064 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:35.738695+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=5a5723dc-9e2b-4d3c-8699-9a1a4684d05d fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:35.774669+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=5a5723dc-9e2b-4d3c-8699-9a1a4684d05d fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:35.777485+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=d397fc37-7f48-48c4-97ef-bb6af45016f7 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:35.840128+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=d397fc37-7f48-48c4-97ef-bb6af45016f7 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:35.843204+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=8c3bbb12-2e70-44be-92ae-d420f26ef1ab fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:35.887944+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=8c3bbb12-2e70-44be-92ae-d420f26ef1ab fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:35.890608+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=2da5a8a3-c28f-45bf-b75f-bcb5a3803b1f fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:35.914772+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=2da5a8a3-c28f-45bf-b75f-bcb5a3803b1f fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:35.917590+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=0ee83644-20f5-4007-b36e-e9efb2050f2b fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:35.952155+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=0ee83644-20f5-4007-b36e-e9efb2050f2b fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:35.954459+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=f522cfdd-7f09-4e44-a519-c1698544e5ba fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:36.027165+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=f522cfdd-7f09-4e44-a519-c1698544e5ba fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:36.029758+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=82cf5244-bec8-4a17-a0ea-3585c93dd25f fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:36.073585+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=82cf5244-bec8-4a17-a0ea-3585c93dd25f fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:36.078025+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=7e05055f-70c9-4a88-9ab4-57fb9bbf3e0b fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:36.122556+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=7e05055f-70c9-4a88-9ab4-57fb9bbf3e0b fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:36.125439+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=424b8bc3-ea81-4bff-996c-3cafaf7bf675 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:36.189292+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=424b8bc3-ea81-4bff-996c-3cafaf7bf675 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:36.192145+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=4ae3f820-5286-4a55-866a-f78babad1ef9 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:36.224202+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=4ae3f820-5286-4a55-866a-f78babad1ef9 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:36.228100+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=a9de8953-8411-4dea-bb7f-91e75fc477d3 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:36.291050+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=a9de8953-8411-4dea-bb7f-91e75fc477d3 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:36.293914+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=7c24ef97-1b79-46d7-93bb-a50170a87f6b fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:36.371663+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=7c24ef97-1b79-46d7-93bb-a50170a87f6b fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:36.374129+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=2808e848-386f-48f5-ae1d-347f441ccce3 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:36.429921+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=2808e848-386f-48f5-ae1d-347f441ccce3 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:36.432485+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=0f6842d9-1755-4b12-9885-d2e24f58eb08 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:36.485838+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=0f6842d9-1755-4b12-9885-d2e24f58eb08 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:36.488363+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=00c6bdd8-3e79-438b-8401-4e595e5c7a4b fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:36.512139+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=00c6bdd8-3e79-438b-8401-4e595e5c7a4b fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:36.514701+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=64782997-b7a0-4113-b4a5-5a84d421aaa2 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:36.558470+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=64782997-b7a0-4113-b4a5-5a84d421aaa2 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:36.561349+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=cca10770-28c9-48fb-a426-b3f04f66ffb2 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:36.600141+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=cca10770-28c9-48fb-a426-b3f04f66ffb2 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:36.602965+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=325a410f-084d-4d82-b361-f950e25a46ac fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:36.686226+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=325a410f-084d-4d82-b361-f950e25a46ac fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:36.688677+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=fe2dfd13-c7a1-4b46-8a5f-12f6ecbc3ace fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:36.769532+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=fe2dfd13-c7a1-4b46-8a5f-12f6ecbc3ace fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:36.772147+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=76275b64-e320-4260-a216-2490e3585630 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:36.822793+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=76275b64-e320-4260-a216-2490e3585630 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:36.825265+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=b5b102a1-1cdc-4757-8548-55469f84d66f fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:36.883186+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=b5b102a1-1cdc-4757-8548-55469f84d66f fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:36.886390+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=c1857ad3-496a-4111-a868-d2f88d7bea8d fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:36.933537+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=c1857ad3-496a-4111-a868-d2f88d7bea8d fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:36.936320+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=45f9ec95-2269-44df-8457-ea9a6e281d7f fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:36.965095+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=45f9ec95-2269-44df-8457-ea9a6e281d7f fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:36.967938+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=c8c5d3ea-5ebb-40d4-8998-d44213be144c fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:36.997610+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=c8c5d3ea-5ebb-40d4-8998-d44213be144c fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:37.000271+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=564dedbd-3fc5-4105-a08f-37e7f4d83914 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:37.030270+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=564dedbd-3fc5-4105-a08f-37e7f4d83914 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:37.032736+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=b9d1ebf4-06d3-4e34-83d8-b500abf43141 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:37.071563+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=b9d1ebf4-06d3-4e34-83d8-b500abf43141 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:37.074712+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=bd9d7ddc-35a4-47a0-9f50-80c90c3f4859 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:37.141535+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=bd9d7ddc-35a4-47a0-9f50-80c90c3f4859 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:37.144517+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=d9346c84-d13a-4b1e-bdaa-d00ec5d7276b fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:37.199645+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=d9346c84-d13a-4b1e-bdaa-d00ec5d7276b fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:37.202355+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=b6e48cf9-9948-45b5-b29c-04d8cb89fc9b fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:37.284608+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=b6e48cf9-9948-45b5-b29c-04d8cb89fc9b fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:37.287230+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=4938d956-bcb7-4714-a073-700e406d6f55 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:37.380151+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=4938d956-bcb7-4714-a073-700e406d6f55 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:37.388767+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=eb26e227-40d3-4ffc-8b35-fab0da3a7fea fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:37.452754+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=eb26e227-40d3-4ffc-8b35-fab0da3a7fea fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:37.456575+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=182e1937-00e4-4b99-9179-dbdfe59c2148 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:37.510390+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=182e1937-00e4-4b99-9179-dbdfe59c2148 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:37.512580+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=bc44f4f8-6916-48dc-a51b-6ef767710222 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:37.591647+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=bc44f4f8-6916-48dc-a51b-6ef767710222 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:37.594634+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=e478ed63-9153-415e-9cc7-1f1819908920 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:37.626167+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=e478ed63-9153-415e-9cc7-1f1819908920 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:37.631323+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=81918534-b96f-4443-8755-deaea940eb86 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:37.697621+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=81918534-b96f-4443-8755-deaea940eb86 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:37.702561+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=85158c4a-7b23-4721-b14e-058bb7ecc6de fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:37.727328+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=85158c4a-7b23-4721-b14e-058bb7ecc6de fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:37.731562+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=de6a9e88-a941-4ba4-9d66-c6c4c1c87820 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:37.779063+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=de6a9e88-a941-4ba4-9d66-c6c4c1c87820 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:37.782065+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=ae81a407-4c53-42db-beb7-1f206ee268aa fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:37.808198+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=ae81a407-4c53-42db-beb7-1f206ee268aa fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:37.811014+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=50219956-de1f-49cf-80b2-01086e50a816 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:37.884690+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=50219956-de1f-49cf-80b2-01086e50a816 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:37.888160+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=4bd11f37-66ab-4fb3-bed1-9f0fcc8dd2b3 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:37.929131+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=4bd11f37-66ab-4fb3-bed1-9f0fcc8dd2b3 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:37.931663+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=be438e67-db7e-42e6-86d2-9a9cc9346df4 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:37.998757+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=be438e67-db7e-42e6-86d2-9a9cc9346df4 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:38.001441+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=29708f64-ee8a-4776-8bf6-b6b3006b8ba2 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:38.058068+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=29708f64-ee8a-4776-8bf6-b6b3006b8ba2 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:38.060731+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=c56d7642-0c59-41f4-bef3-0d288efe784c fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:38.119148+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=c56d7642-0c59-41f4-bef3-0d288efe784c fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:38.121753+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=794f1752-1ec6-4020-9a99-9ec939df62ca fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:38.167694+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=794f1752-1ec6-4020-9a99-9ec939df62ca fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:38.170023+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=b7c9ddfa-e9e1-4060-87e7-c31f93bbc992 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:38.207371+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=b7c9ddfa-e9e1-4060-87e7-c31f93bbc992 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:38.210280+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=71addd01-08e3-403f-aa96-8cb8a5001265 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:38.235366+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=71addd01-08e3-403f-aa96-8cb8a5001265 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:38.237853+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=36d237d7-70cd-417a-972e-0a199a590f83 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:38.310715+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=36d237d7-70cd-417a-972e-0a199a590f83 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:38.313275+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=a30adda0-026b-4d04-839c-d0f640af14e9 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:38.358979+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=a30adda0-026b-4d04-839c-d0f640af14e9 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:38.361772+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=b47411bd-4290-4faa-a22f-c937f77daf84 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:38.386467+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=b47411bd-4290-4faa-a22f-c937f77daf84 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:38.389110+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=39de28fe-5e4f-4734-982e-a5ec0dfa9e2f fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:38.440812+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=39de28fe-5e4f-4734-982e-a5ec0dfa9e2f fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:38.443723+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=c67b1db8-fda6-48ff-b716-1d75024e3920 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:38.511156+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=c67b1db8-fda6-48ff-b716-1d75024e3920 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:38.513305+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=9f18b511-90d6-4eb3-9765-8a35a20111c3 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:38.593128+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=9f18b511-90d6-4eb3-9765-8a35a20111c3 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:38.595472+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=a38a0575-e337-45cf-a5bb-6a1207760dd1 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:38.643295+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=a38a0575-e337-45cf-a5bb-6a1207760dd1 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:38.646067+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=253e020e-e820-4599-ba4d-eb120f8549a6 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:38.689722+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=253e020e-e820-4599-ba4d-eb120f8549a6 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:38.692134+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=7f3d4a54-d889-4cd2-b874-bb10a2908a81 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:38.759534+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=7f3d4a54-d889-4cd2-b874-bb10a2908a81 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:38.762104+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=78c0cff7-28f8-4340-b518-a8d8be860ff7 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:38.806312+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=78c0cff7-28f8-4340-b518-a8d8be860ff7 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:38.808479+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=b9d150e8-9e44-4605-914c-50fc40f01ac9 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:38.847076+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=b9d150e8-9e44-4605-914c-50fc40f01ac9 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:38.849363+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=b9933480-a3b8-41de-9b9c-02d231dcf32d fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:38.883673+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=b9933480-a3b8-41de-9b9c-02d231dcf32d fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:38.886029+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=3bcf2583-dd7b-4abb-b51a-b9b28a8a06b9 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:38.916386+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=3bcf2583-dd7b-4abb-b51a-b9b28a8a06b9 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:38.918919+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=50490a71-e12e-40d0-a28f-c52da24eb690 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:39.023072+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=50490a71-e12e-40d0-a28f-c52da24eb690 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:39.030372+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=b1511275-1648-4e78-a318-185fbc244b22 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:39.089983+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=b1511275-1648-4e78-a318-185fbc244b22 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:39.092440+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=05c940d9-f3a4-41c3-a35e-1cba408c3b46 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:39.166431+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=05c940d9-f3a4-41c3-a35e-1cba408c3b46 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:39.169101+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=2cae3af0-2a35-4854-bc53-ad8b61dce950 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:39.191939+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=2cae3af0-2a35-4854-bc53-ad8b61dce950 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:39.194452+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=f0ddc589-db84-4c6a-865e-ad5e90b81c61 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:39.222432+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=f0ddc589-db84-4c6a-865e-ad5e90b81c61 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:39.225425+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=34b84e5d-6dcc-4880-b6a7-5a8bdbfbcc1d fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:39.265731+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=34b84e5d-6dcc-4880-b6a7-5a8bdbfbcc1d fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:39.267983+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=823aa9b6-ff89-4e0f-b490-0a78fb419112 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:39.299632+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=823aa9b6-ff89-4e0f-b490-0a78fb419112 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:39.302246+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=5afd4f35-f6e0-473e-94ec-ba78b800c354 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:39.349644+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=5afd4f35-f6e0-473e-94ec-ba78b800c354 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:39.351804+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=5ef6c8dd-4df6-499a-9d21-48149f0adfd2 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:39.384370+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=5ef6c8dd-4df6-499a-9d21-48149f0adfd2 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:39.386755+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=e67261e8-4c6c-40cd-a738-06b3ce37c5c7 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:39.451272+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=e67261e8-4c6c-40cd-a738-06b3ce37c5c7 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:39.453702+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=a0a52cd1-66df-496f-a915-bb9a69007777 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:39.510330+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=a0a52cd1-66df-496f-a915-bb9a69007777 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:39.512594+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=8f46737c-91db-449d-8a6a-f8c24dcf6bcc fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:39.545015+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=8f46737c-91db-449d-8a6a-f8c24dcf6bcc fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:39.547290+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=915669a2-d20c-4953-bd35-3410f77229b4 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:39.585692+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=915669a2-d20c-4953-bd35-3410f77229b4 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:39.587972+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=dd439cd8-6cdd-4471-94d1-815fd905ad02 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:39.647566+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=dd439cd8-6cdd-4471-94d1-815fd905ad02 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:39.650510+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=bda8f923-9ad7-44a5-85da-5154641d07e5 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:39.722554+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=bda8f923-9ad7-44a5-85da-5154641d07e5 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:39.725187+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=b9ab0e27-21f6-4bd1-8b12-33ea0cc0f426 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:39.750725+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=b9ab0e27-21f6-4bd1-8b12-33ea0cc0f426 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:39.753030+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=bc4ced66-9c96-48bc-9e37-e1bb6262028c fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:39.786732+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=bc4ced66-9c96-48bc-9e37-e1bb6262028c fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:39.789026+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=7c8e74d5-f475-47d7-820c-f6eef8c8431a fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:39.870865+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=7c8e74d5-f475-47d7-820c-f6eef8c8431a fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:39.873663+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=ec1918be-e479-4834-95d8-8892c94f2d42 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:39.931234+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=ec1918be-e479-4834-95d8-8892c94f2d42 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:39.933649+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=5028c70a-63ec-4650-8287-cbdef5ea75de fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:40.004203+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=5028c70a-63ec-4650-8287-cbdef5ea75de fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:40.006733+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=9b2e0f2e-fd31-4f18-b3bd-13b8229cc4c0 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:40.047520+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=9b2e0f2e-fd31-4f18-b3bd-13b8229cc4c0 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:40.050236+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=e30fabd9-8350-485a-a6b2-bd68303e9ab0 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:40.075830+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=e30fabd9-8350-485a-a6b2-bd68303e9ab0 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:40.078598+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=8f181c85-f401-4ca4-a37e-034d13b04624 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:40.124270+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=8f181c85-f401-4ca4-a37e-034d13b04624 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:40.126743+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=bd1a1252-51fb-4453-ac12-4e095b939b6a fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:40.172025+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=bd1a1252-51fb-4453-ac12-4e095b939b6a fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:40.174427+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=8094349c-de32-4e6a-8cf1-a7176dd68897 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:40.233134+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=8094349c-de32-4e6a-8cf1-a7176dd68897 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:40.235984+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=5d529c9e-b024-4890-acbc-b8785dcbc7f0 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:40.306593+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=5d529c9e-b024-4890-acbc-b8785dcbc7f0 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:40.309031+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=766ad664-c725-48c9-a022-bc7f4eb94557 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:40.384315+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=766ad664-c725-48c9-a022-bc7f4eb94557 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:40.387157+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=978cbc18-ea75-4365-940d-ae2256df5b71 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:40.435885+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=978cbc18-ea75-4365-940d-ae2256df5b71 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:40.438580+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=32917ba2-b98d-43ec-8621-38d0f9d400f7 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:40.499061+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=32917ba2-b98d-43ec-8621-38d0f9d400f7 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:40.501806+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=6406efd7-834c-49d2-a977-04254027d835 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:40.559940+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=6406efd7-834c-49d2-a977-04254027d835 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:40.562782+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=8ebf70ac-0040-496f-ab5b-5fb55d542036 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:40.600453+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=8ebf70ac-0040-496f-ab5b-5fb55d542036 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:40.603184+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=8a0294fd-76af-4ae6-a8ea-ff80e53fef17 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:40.656972+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=8a0294fd-76af-4ae6-a8ea-ff80e53fef17 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:40.659355+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=00451dce-e792-4e48-8b03-854abe0477bc fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:40.683382+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=00451dce-e792-4e48-8b03-854abe0477bc fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:40.685985+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=619ab8a9-0b43-49d7-87fd-d2d7efa56a7b fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:40.727978+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=619ab8a9-0b43-49d7-87fd-d2d7efa56a7b fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:40.730733+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=12440420-f9d5-40cb-a678-163be2a2a3e7 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:40.763795+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=12440420-f9d5-40cb-a678-163be2a2a3e7 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:40.765954+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=1f4b64da-fae9-4f3e-9419-7e9446bda808 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:40.832734+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=1f4b64da-fae9-4f3e-9419-7e9446bda808 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:40.835202+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=bd5fe931-9d33-4dda-a209-48518b4b9b0e fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:40.873461+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=bd5fe931-9d33-4dda-a209-48518b4b9b0e fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:40.875982+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=60187891-49f5-4352-a903-13de70b094c6 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:40.941764+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=60187891-49f5-4352-a903-13de70b094c6 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:40.944245+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=928fbd47-3cab-4e02-96c1-c93a79cac4ec fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:41.018436+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=928fbd47-3cab-4e02-96c1-c93a79cac4ec fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:41.021202+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=7c82d819-76c7-44e4-b032-d2dd8db6c562 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:41.049887+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=7c82d819-76c7-44e4-b032-d2dd8db6c562 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:41.052944+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=45132add-a64e-40e4-9f87-c4d4965daa3c fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:41.119770+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=45132add-a64e-40e4-9f87-c4d4965daa3c fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:41.122549+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=cbe5ef82-1313-4b77-9ab0-adb972d01ab1 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:41.199520+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=cbe5ef82-1313-4b77-9ab0-adb972d01ab1 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:41.202299+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=205a8307-1266-4aab-8539-531394cff4ae fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:41.243063+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=205a8307-1266-4aab-8539-531394cff4ae fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:41.245744+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=ee2a3b44-b438-45ba-bfae-f707e68c7894 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:41.318766+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=ee2a3b44-b438-45ba-bfae-f707e68c7894 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:41.321332+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=e9c58047-42ba-4d81-b11d-0504c958e717 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:41.350766+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=e9c58047-42ba-4d81-b11d-0504c958e717 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:41.353400+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=8e2a0fe0-fdd7-4cfc-881c-96473ac79e20 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:41.417682+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=8e2a0fe0-fdd7-4cfc-881c-96473ac79e20 fence=1 accepted=True error=simulated_training_failure"}
+{"time": "2026-11-10T06:27:41.420248+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=39b77b74-f8cd-45ef-ab1f-fa230d6fd24b fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:41.460744+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=39b77b74-f8cd-45ef-ab1f-fa230d6fd24b fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:41.463404+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=2f312d37-aa7f-43a4-ab03-9b26a0c7e907 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:41.494970+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=2f312d37-aa7f-43a4-ab03-9b26a0c7e907 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:41.497788+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=b08dcf7a-0fe3-48d5-a410-f06641a87c56 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:41.565498+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=b08dcf7a-0fe3-48d5-a410-f06641a87c56 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:41.568070+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=e2c27f82-d855-45e4-b742-fbeccfdd0ea4 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:41.645448+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=e2c27f82-d855-45e4-b742-fbeccfdd0ea4 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:41.647844+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=83d7cac2-c2be-4abb-b20a-e4fef18c4087 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:41.674492+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=83d7cac2-c2be-4abb-b20a-e4fef18c4087 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:41.677501+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=519f9643-3762-4d12-ae5d-2a3451888d11 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:41.726358+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=519f9643-3762-4d12-ae5d-2a3451888d11 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:41.728973+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=65cc900c-2a30-4129-b219-f767e9ae6066 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:41.753101+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=65cc900c-2a30-4129-b219-f767e9ae6066 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:41.756026+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=84eb54af-097c-4a44-a0ac-f603b7d78fa9 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:41.831633+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=84eb54af-097c-4a44-a0ac-f603b7d78fa9 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:41.834385+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=43e7bcb4-646e-4ea2-98ec-c9bfcb5490a7 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:41.877171+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=43e7bcb4-646e-4ea2-98ec-c9bfcb5490a7 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:41.879978+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=4caa3314-7501-4c64-a4a9-ad0e33421aa6 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:41.903848+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=4caa3314-7501-4c64-a4a9-ad0e33421aa6 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:41.906689+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=12ded843-d4bb-4c16-b592-359ea2e3e542 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:41.931393+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=12ded843-d4bb-4c16-b592-359ea2e3e542 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:41.934270+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=58f4d11f-550d-4bf6-8c4b-8e41e1aecc13 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:41.962156+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=58f4d11f-550d-4bf6-8c4b-8e41e1aecc13 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:41.964750+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=d777c467-3a4c-40a9-a822-2441fb0fd499 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:42.021691+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=d777c467-3a4c-40a9-a822-2441fb0fd499 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:42.024392+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=cf9ed868-d121-46b3-8b99-bcc24f705652 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:42.089339+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=cf9ed868-d121-46b3-8b99-bcc24f705652 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:42.091769+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=5100362a-0e55-4e7f-b5ff-b7eedf40792b fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:42.117432+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=5100362a-0e55-4e7f-b5ff-b7eedf40792b fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:42.119953+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=22e93736-648d-4bbf-b9f3-4c1f7784f661 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:42.181257+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=22e93736-648d-4bbf-b9f3-4c1f7784f661 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:42.183731+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=a0aeb49b-8e4b-4d0b-9461-b684eee42e8b fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:42.246165+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=a0aeb49b-8e4b-4d0b-9461-b684eee42e8b fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:42.248904+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=27f11993-eb6b-4865-a2fd-8c7d45d2a65d fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:42.275676+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=27f11993-eb6b-4865-a2fd-8c7d45d2a65d fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:42.277945+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=b41f838e-1019-4983-9a7b-489965c20e09 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:42.337631+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=b41f838e-1019-4983-9a7b-489965c20e09 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:42.340442+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=73c22068-10e8-4b0c-b7c3-83c0ea92089d fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:42.383668+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=73c22068-10e8-4b0c-b7c3-83c0ea92089d fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:42.386476+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=93498ca8-7f4b-49d9-a3bb-693658ee273e fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:42.465450+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=93498ca8-7f4b-49d9-a3bb-693658ee273e fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:42.468103+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=81f18700-7a72-4111-88cb-384dd591c5c5 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:42.538835+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=81f18700-7a72-4111-88cb-384dd591c5c5 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:42.541408+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=c7dd3cb3-33e6-4ef9-8e83-1a843c4f3424 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:42.580865+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=c7dd3cb3-33e6-4ef9-8e83-1a843c4f3424 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:42.583650+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=f198d695-46d5-436f-9f9c-72b68f37c30d fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:42.606283+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=f198d695-46d5-436f-9f9c-72b68f37c30d fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:42.609021+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=bb4e7588-5cdd-40d6-9126-562743df0793 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:42.688982+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=bb4e7588-5cdd-40d6-9126-562743df0793 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:42.691505+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=42b692ac-478b-4bef-bbcd-fd237eddf65f fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:42.734210+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=42b692ac-478b-4bef-bbcd-fd237eddf65f fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:42.736907+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=c105070c-a8a7-45a7-82d0-87d5671ce82d fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:42.792802+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=c105070c-a8a7-45a7-82d0-87d5671ce82d fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:42.795601+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=4556cd4b-3ec9-46af-adc2-699cfb0e69e9 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:42.844418+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=4556cd4b-3ec9-46af-adc2-699cfb0e69e9 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:42.846952+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=c67a68ad-d164-447a-b572-b9a5f8e73185 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:42.907719+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=c67a68ad-d164-447a-b572-b9a5f8e73185 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:42.910416+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=4684fe82-8ff6-48d6-8ceb-663400311eb6 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:42.978350+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=4684fe82-8ff6-48d6-8ceb-663400311eb6 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:42.980925+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=508196fa-da92-487e-a234-473c62011690 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:43.032616+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=508196fa-da92-487e-a234-473c62011690 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:43.035451+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=a98b04be-efef-411b-8093-6614c0b8dfbd fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:43.058462+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=a98b04be-efef-411b-8093-6614c0b8dfbd fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:43.061171+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=371ddbb4-c181-476b-9f2e-122509bd5b0d fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:43.119075+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=371ddbb4-c181-476b-9f2e-122509bd5b0d fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:43.121526+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=69d46ab9-fe0c-4914-9a56-0ec7aba9ae03 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:43.193193+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=69d46ab9-fe0c-4914-9a56-0ec7aba9ae03 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:43.195662+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=a396e994-1a48-4f4e-a15b-21de9cb514c6 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:43.268570+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=a396e994-1a48-4f4e-a15b-21de9cb514c6 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:43.271402+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=a4ac2956-4924-451c-8854-a3a95560290f fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:43.311256+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=a4ac2956-4924-451c-8854-a3a95560290f fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:43.314109+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=8545f732-ed6d-49a5-8065-c924284c0598 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:43.363815+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=8545f732-ed6d-49a5-8065-c924284c0598 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:43.366757+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=05a8c9f5-683f-4dd6-b833-bd1a7b2c2f53 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:43.445062+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=05a8c9f5-683f-4dd6-b833-bd1a7b2c2f53 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:43.447686+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=71872954-5866-4285-ab75-1a172b6ee58c fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:43.499092+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=71872954-5866-4285-ab75-1a172b6ee58c fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:43.501747+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=b99ca8a0-3f7e-42bc-99ee-afd381b0b494 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:43.568273+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=b99ca8a0-3f7e-42bc-99ee-afd381b0b494 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:43.570858+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=e6df7ad6-11de-478b-a910-b8316fdd48c2 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:43.612225+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=e6df7ad6-11de-478b-a910-b8316fdd48c2 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:43.614964+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=06ca5fc4-3a73-4b54-8d72-b3e86bd26cfd fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:43.655789+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=06ca5fc4-3a73-4b54-8d72-b3e86bd26cfd fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:43.658596+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=c68f9c5a-f91e-46ab-bd6d-a2560488ff84 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:43.709161+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=c68f9c5a-f91e-46ab-bd6d-a2560488ff84 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:43.711837+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=94a43554-a0d3-435a-9e03-491a9f113dae fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:43.766698+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=94a43554-a0d3-435a-9e03-491a9f113dae fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:43.769454+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=e0e80b71-fca6-414c-bfe4-074cb0f9d92f fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:43.810264+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=e0e80b71-fca6-414c-bfe4-074cb0f9d92f fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:43.813092+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=1b1c80ab-ea34-44e7-b616-f69ea7db3bf1 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:43.860780+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=1b1c80ab-ea34-44e7-b616-f69ea7db3bf1 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:43.863380+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=a56b0fe1-bfa5-42c0-8f32-2d4aed4fe096 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:43.902013+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=a56b0fe1-bfa5-42c0-8f32-2d4aed4fe096 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:43.904853+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=a1486744-5b0f-442e-984a-888306f8a96a fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:43.934499+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=a1486744-5b0f-442e-984a-888306f8a96a fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:43.937139+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=7c64eec0-3fbe-493b-8b0f-b566f2e987fc fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:44.010005+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=7c64eec0-3fbe-493b-8b0f-b566f2e987fc fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:44.012710+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=30ecf2a4-f7cd-4e43-bc22-3fbd99da7ed5 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:44.068430+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=30ecf2a4-f7cd-4e43-bc22-3fbd99da7ed5 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:44.071314+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=0564c5bf-794b-435e-aa91-347506ea1996 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:44.103045+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=0564c5bf-794b-435e-aa91-347506ea1996 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:44.105790+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=00410824-ba2a-4340-b575-dc34fd74bf2e fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:44.135814+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=00410824-ba2a-4340-b575-dc34fd74bf2e fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:44.138477+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=dfc3c112-87a3-4a02-b6b9-537d4bd2ff23 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:44.163351+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=dfc3c112-87a3-4a02-b6b9-537d4bd2ff23 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:44.166009+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=aeae1bf3-1f82-4648-a8e2-6c7c3d998d33 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:44.220038+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=aeae1bf3-1f82-4648-a8e2-6c7c3d998d33 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:44.222876+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=c1544213-7261-439c-9c24-4af2cf749484 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:44.292663+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=c1544213-7261-439c-9c24-4af2cf749484 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:44.295352+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=c78e3f3b-8a26-4502-8703-f3d7ae3c4bc1 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:44.328479+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=c78e3f3b-8a26-4502-8703-f3d7ae3c4bc1 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:44.331223+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=31291a66-4852-4002-851b-9011e386f84a fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:44.393697+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=31291a66-4852-4002-851b-9011e386f84a fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:44.396314+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=f0465c11-0416-4b18-a1c5-9029343a6a4e fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:44.419044+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=f0465c11-0416-4b18-a1c5-9029343a6a4e fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:44.421683+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=a7c5fce8-412a-459e-b8d0-563d1af9d25f fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:44.473426+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=a7c5fce8-412a-459e-b8d0-563d1af9d25f fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:44.476247+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=7e140573-70f6-42e0-b883-501a6121ff45 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:44.539271+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=7e140573-70f6-42e0-b883-501a6121ff45 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:44.542090+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=7ffdf8d6-a1ac-4110-9e74-40ac70caed51 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:44.624846+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=7ffdf8d6-a1ac-4110-9e74-40ac70caed51 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:44.627534+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=bb501c11-7d09-4000-85a5-6a878be41318 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:44.654027+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=bb501c11-7d09-4000-85a5-6a878be41318 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:44.656840+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=a75982bb-ed7e-44da-860a-559096701ca5 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:44.738693+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=a75982bb-ed7e-44da-860a-559096701ca5 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:44.741471+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=324c5b52-549a-418d-a990-c4bb5e0a8033 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:44.793372+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=324c5b52-549a-418d-a990-c4bb5e0a8033 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:44.796144+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=623e14fe-2862-4d5a-8085-8845acf961ee fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:44.876498+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=623e14fe-2862-4d5a-8085-8845acf961ee fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:44.879622+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=932c74ad-1055-40ca-8492-0173f7e9614d fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:44.924340+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=932c74ad-1055-40ca-8492-0173f7e9614d fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:44.926878+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=84443f23-01cc-4ea1-9306-78841d822184 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:45.001476+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=84443f23-01cc-4ea1-9306-78841d822184 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:45.004168+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=10905a38-fa34-4c6e-89f9-8c384c285e8c fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:45.068269+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=10905a38-fa34-4c6e-89f9-8c384c285e8c fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:45.071150+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=0d3fabb0-1299-42f3-97e6-f0fb3b44cbf5 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:45.104025+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=0d3fabb0-1299-42f3-97e6-f0fb3b44cbf5 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:45.107028+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=fbc7e0f2-6fd9-4539-a2ea-4312164119ec fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:45.189621+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=fbc7e0f2-6fd9-4539-a2ea-4312164119ec fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:45.192329+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=eb29dbc1-55a9-4179-bc24-d2e6655d9b42 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:45.272989+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=eb29dbc1-55a9-4179-bc24-d2e6655d9b42 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:45.275487+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=2580fe88-ffe4-4ea3-9b5d-c099ea1a5ec1 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:45.304822+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=2580fe88-ffe4-4ea3-9b5d-c099ea1a5ec1 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:45.308093+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=3331308c-d1df-4e43-b0d1-85954bedb31a fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:45.350596+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=3331308c-d1df-4e43-b0d1-85954bedb31a fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:45.353381+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=f909bad9-3b59-4c92-bce6-7e281dc76fde fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:45.389184+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=f909bad9-3b59-4c92-bce6-7e281dc76fde fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:45.391903+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=062ea245-749b-49e4-9508-d64826768050 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:45.463713+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=062ea245-749b-49e4-9508-d64826768050 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:45.466340+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=2986fd75-a5b5-43b2-a8e9-7974a11cbff7 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:45.519294+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=2986fd75-a5b5-43b2-a8e9-7974a11cbff7 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:45.521723+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=fd33bc70-1aa3-4755-8312-5dd1dab54cd4 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:45.559619+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=fd33bc70-1aa3-4755-8312-5dd1dab54cd4 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:45.561995+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=0af4f360-df26-4135-86c6-39b03c5c8eeb fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:45.617400+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=0af4f360-df26-4135-86c6-39b03c5c8eeb fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:45.619610+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=99ddc3cf-06e8-48fa-a1a0-913aea4e920e fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:45.679929+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=99ddc3cf-06e8-48fa-a1a0-913aea4e920e fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:45.682288+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=79f6038a-858c-4e00-8428-eae1cb035be8 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:45.727893+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=79f6038a-858c-4e00-8428-eae1cb035be8 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:45.730288+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=15b33672-de4b-4144-8cd5-4a0b24e4202e fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:45.807005+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=15b33672-de4b-4144-8cd5-4a0b24e4202e fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:45.809622+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=f5d5f5e0-f690-490f-919b-0ad9fb63dd0a fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:45.837174+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=f5d5f5e0-f690-490f-919b-0ad9fb63dd0a fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:45.840078+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=e3430606-20c8-4313-a5ef-b9ab56dd099e fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:45.878702+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=e3430606-20c8-4313-a5ef-b9ab56dd099e fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:45.881258+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=b27c01fe-2d21-49bd-b1a2-ce2550c46bd5 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:45.921528+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=b27c01fe-2d21-49bd-b1a2-ce2550c46bd5 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:45.924670+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=bd741e9b-7512-448e-b3f7-86b835d798d3 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:45.956503+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=bd741e9b-7512-448e-b3f7-86b835d798d3 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:45.959825+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=d9afd438-043f-401e-844c-b00316e9d323 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:46.024445+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=d9afd438-043f-401e-844c-b00316e9d323 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:46.026891+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=b2283f22-5740-4144-85b3-6f4a3e2e1247 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:46.076245+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=b2283f22-5740-4144-85b3-6f4a3e2e1247 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:46.078817+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=56e7e03c-a718-49aa-9bb5-08f6bbefe797 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:46.148137+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=56e7e03c-a718-49aa-9bb5-08f6bbefe797 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:46.151595+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=4524d9a9-71a3-4def-9375-fb1beabbb33b fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:46.226103+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=4524d9a9-71a3-4def-9375-fb1beabbb33b fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:46.228446+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=4fa81df1-82d1-4bd3-a0f5-847e5c8eeced fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:46.300976+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=4fa81df1-82d1-4bd3-a0f5-847e5c8eeced fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:46.303529+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=24159476-5419-4364-8744-8c6e92c5dc01 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:46.341947+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=24159476-5419-4364-8744-8c6e92c5dc01 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:46.344486+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=8847f19b-40d6-4bd4-80cd-655663e1e0fb fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:46.380793+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=8847f19b-40d6-4bd4-80cd-655663e1e0fb fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:46.383416+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=2da9a85f-f8d0-42b5-9f7a-6ea71766bb5f fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:46.432431+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=2da9a85f-f8d0-42b5-9f7a-6ea71766bb5f fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:46.435364+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=ab1e85c7-35a8-43b3-9ead-1150b4bc91eb fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:46.466909+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=ab1e85c7-35a8-43b3-9ead-1150b4bc91eb fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:46.469427+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=5db081d6-bd84-423b-a43a-60a144ac3627 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:46.532179+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=5db081d6-bd84-423b-a43a-60a144ac3627 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:46.534859+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=2f6f8e98-17d4-4c62-a9fd-13d77438b400 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:46.577245+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=2f6f8e98-17d4-4c62-a9fd-13d77438b400 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:46.579795+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=cd418668-eb08-49e7-8284-82e92104b773 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:46.650690+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=cd418668-eb08-49e7-8284-82e92104b773 fence=1 accepted=False error=None"}
+{"time": "2026-11-10T06:27:46.653694+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=134e2b15-200f-4ded-915d-b8504e6fe210 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:46.734391+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=134e2b15-200f-4ded-915d-b8504e6fe210 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:46.737338+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=34ae9bd6-7da3-4f69-9ff7-2133819ba085 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:46.797091+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=34ae9bd6-7da3-4f69-9ff7-2133819ba085 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:46.799407+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=9ec46abb-58ae-4b99-b03d-d38c021a64ff fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:46.874153+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=9ec46abb-58ae-4b99-b03d-d38c021a64ff fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:46.876419+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=8b8d22cd-ef9c-4cab-8631-1fe06a10c078 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:46.915714+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=8b8d22cd-ef9c-4cab-8631-1fe06a10c078 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:46.918449+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=d60e19b5-dc00-43e7-afab-dda7a1178c03 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:46.983839+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=d60e19b5-dc00-43e7-afab-dda7a1178c03 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:46.986644+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=73b5e057-55f9-42e0-bebf-3c6d53692d56 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:47.049937+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=73b5e057-55f9-42e0-bebf-3c6d53692d56 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:47.052405+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=b18076d7-efdd-4c17-bfea-790472282aa5 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:47.124997+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=b18076d7-efdd-4c17-bfea-790472282aa5 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:47.127756+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=930e1647-834e-4a5d-8332-6155b240da65 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:47.182242+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=930e1647-834e-4a5d-8332-6155b240da65 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:47.184818+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=be0805ab-a266-4488-8c8e-5f03071e7b59 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:47.227306+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=be0805ab-a266-4488-8c8e-5f03071e7b59 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:47.229871+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=570c8457-1ddd-4853-89fc-8a57fb541ca5 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:47.287986+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=570c8457-1ddd-4853-89fc-8a57fb541ca5 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:47.290681+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=59424e33-4b6d-4afb-a915-dc9eb9fb2638 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:47.341305+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=59424e33-4b6d-4afb-a915-dc9eb9fb2638 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:47.344390+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=6f69c0af-48d7-41e9-953a-ad8c67ad00ed fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:47.416484+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=6f69c0af-48d7-41e9-953a-ad8c67ad00ed fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:47.419016+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=c0b47a7d-fbed-411c-85b9-f5efee28b2e8 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:47.496799+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=c0b47a7d-fbed-411c-85b9-f5efee28b2e8 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:47.499870+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=87b09207-48ce-41b6-ae44-d98dfa9b3974 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:47.540565+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=87b09207-48ce-41b6-ae44-d98dfa9b3974 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:47.543338+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=83a853c9-a1b2-4c49-bc03-21855272e15e fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:47.608992+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=83a853c9-a1b2-4c49-bc03-21855272e15e fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:47.611790+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=f803a13f-580e-43ba-8cfa-0e05a9145a3d fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:47.675439+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=f803a13f-580e-43ba-8cfa-0e05a9145a3d fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:47.678109+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=481624f9-b712-40c6-b026-09f3ab1df33f fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:47.715900+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=481624f9-b712-40c6-b026-09f3ab1df33f fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:47.719216+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=5d9924f9-b141-4102-8d46-9bb20eadd257 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}
+{"time": "2026-11-10T06:27:47.761625+00:00", "level": "INFO", "logger": "__main__", "message": "completion job=5d9924f9-b141-4102-8d46-9bb20eadd257 fence=1 accepted=True error=None"}
+{"time": "2026-11-10T06:27:47.764419+00:00", "level": "INFO", "logger": "__main__", "message": "claimed job=b200eef7-9e0f-4c86-bf3d-447bea254d31 fence=1 owner=7315-1eaaad73-957d-401e-9ea3-81ef5f5192c4"}

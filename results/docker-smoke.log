@@ -1,0 +1,5 @@
+{"check": "readiness", "response": {"status": "ok", "database": "up", "redis": "up"}}
+{"check": "idempotency", "replay": 200, "conflict": 409}
+{"check": "terminal_states", "states": {"7587f7d7-fa60-4586-888b-9152c1376549": "succeeded", "94096ecf-1cee-4dda-98b6-e9d2ec9ad6aa": "failed", "b4d86cf7-7b20-4612-8a98-df55bab5c52e": "cancelled"}}
+{"check": "database_effects", "jobs": 3, "effects": 1, "unfinished_attempts": 0}
+{"passed": true, "checks": ["readiness", "create", "get", "pagination", "idempotent_replay", "conflict", "running_cancellation", "success", "failure", "database_effect_cardinality"]}

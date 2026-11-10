@@ -1,0 +1,127 @@
+{"arguments": {"drain_timeout": 300, "jobs": 10000, "kill_interval": 2, "mode": "chaos", "rps": 100, "seconds": 60, "seed": 20261114, "workers": 8}, "event": "start", "platform": "macOS-27.2-arm64-arm-64bit", "python": "3.12.13 (main, Apr 14 2026, 14:33:40) [Clang 22.1.3 ]", "time": "2026-11-10 10:37:30.694532+00:00"}
+{"event": "process_started", "name": "migration", "pid": 25349, "time": "2026-11-10 10:37:30.770444+00:00"}
+{"event": "database", "isolation": "read committed", "time": "2026-11-10 10:37:31.053955+00:00", "version": "PostgreSQL 17.6 (Homebrew) on aarch64-apple-darwin24.4.0, compiled by Apple clang version 17.0.0 (clang-1700.0.13.3), 64-bit"}
+{"event": "process_started", "name": "api", "pid": 25357, "time": "2026-11-10 10:37:31.108950+00:00"}
+{"event": "api_ready", "health": {"database": "up", "redis": "up", "status": "ok"}, "time": "2026-11-10 10:37:31.465061+00:00"}
+{"event": "process_started", "name": "worker-0-1", "pid": 25359, "time": "2026-11-10 10:37:31.467311+00:00"}
+{"event": "process_started", "name": "worker-1-1", "pid": 25360, "time": "2026-11-10 10:37:31.469750+00:00"}
+{"event": "process_started", "name": "worker-2-1", "pid": 25361, "time": "2026-11-10 10:37:31.472067+00:00"}
+{"event": "process_started", "name": "worker-3-1", "pid": 25362, "time": "2026-11-10 10:37:31.474197+00:00"}
+{"event": "process_started", "name": "worker-4-1", "pid": 25363, "time": "2026-11-10 10:37:31.477441+00:00"}
+{"event": "process_started", "name": "worker-5-1", "pid": 25364, "time": "2026-11-10 10:37:31.480639+00:00"}
+{"event": "process_started", "name": "worker-6-1", "pid": 25365, "time": "2026-11-10 10:37:31.484483+00:00"}
+{"event": "process_started", "name": "worker-7-1", "pid": 25366, "time": "2026-11-10 10:37:31.488264+00:00"}
+{"abandoned_jobs": ["0c2e1f64-14f9-4f3c-937e-0715c3a4c1d4"], "event": "sigkill", "pid": 25363, "returncode": -9, "slot": 4, "time": "2026-11-10 10:37:33.598581+00:00"}
+{"event": "process_started", "name": "worker-4-2", "pid": 25398, "time": "2026-11-10 10:37:33.611971+00:00"}
+{"abandoned_jobs": ["94f3d5f4-7e8c-4071-b50e-3c9f957c7260"], "event": "sigkill", "pid": 25362, "returncode": -9, "slot": 3, "time": "2026-11-10 10:37:35.707071+00:00"}
+{"event": "process_started", "name": "worker-3-2", "pid": 25400, "time": "2026-11-10 10:37:35.719408+00:00"}
+{"abandoned_jobs": ["8439e7b8-44cc-4dee-966d-4f3496d14df8"], "event": "sigkill", "pid": 25361, "returncode": -9, "slot": 2, "time": "2026-11-10 10:37:37.799333+00:00"}
+{"event": "process_started", "name": "worker-2-2", "pid": 25413, "time": "2026-11-10 10:37:37.810178+00:00"}
+{"abandoned_jobs": ["0aa7c3c5-8421-47c8-8dd7-ccbd3db9edcd"], "event": "sigkill", "pid": 25400, "returncode": -9, "slot": 3, "time": "2026-11-10 10:37:39.925425+00:00"}
+{"event": "process_started", "name": "worker-3-3", "pid": 25416, "time": "2026-11-10 10:37:39.934912+00:00"}
+{"abandoned_jobs": ["0c6352bf-1656-4f53-92a1-f31535be93f3"], "event": "sigkill", "pid": 25416, "returncode": -9, "slot": 3, "time": "2026-11-10 10:37:42.034478+00:00"}
+{"event": "process_started", "name": "worker-3-4", "pid": 25423, "time": "2026-11-10 10:37:42.044329+00:00"}
+{"abandoned_jobs": ["945a27a2-8288-453c-9cbe-1697f46e1ef4"], "event": "sigkill", "pid": 25366, "returncode": -9, "slot": 7, "time": "2026-11-10 10:37:44.132259+00:00"}
+{"event": "process_started", "name": "worker-7-2", "pid": 25430, "time": "2026-11-10 10:37:44.143773+00:00"}
+{"abandoned_jobs": ["0faf7ea7-01ac-4bf4-bf08-c4c10a316738"], "event": "sigkill", "pid": 25413, "returncode": -9, "slot": 2, "time": "2026-11-10 10:37:46.235064+00:00"}
+{"event": "process_started", "name": "worker-2-3", "pid": 25437, "time": "2026-11-10 10:37:46.245134+00:00"}
+{"abandoned_jobs": ["ee41cb77-6e93-423d-84f8-18aa6d85987b"], "event": "sigkill", "pid": 25364, "returncode": -9, "slot": 5, "time": "2026-11-10 10:37:48.328671+00:00"}
+{"event": "process_started", "name": "worker-5-2", "pid": 25452, "time": "2026-11-10 10:37:48.339294+00:00"}
+{"abandoned_jobs": ["b8df2eb8-64c7-4140-9ce3-c7f21afd294d"], "event": "sigkill", "pid": 25359, "returncode": -9, "slot": 0, "time": "2026-11-10 10:37:50.372061+00:00"}
+{"event": "process_started", "name": "worker-0-2", "pid": 25455, "time": "2026-11-10 10:37:50.376062+00:00"}
+{"abandoned_jobs": ["f98fa964-6edb-4df8-a926-0566f70e3d73"], "event": "sigkill", "pid": 25430, "returncode": -9, "slot": 7, "time": "2026-11-10 10:37:52.480708+00:00"}
+{"event": "process_started", "name": "worker-7-3", "pid": 25467, "time": "2026-11-10 10:37:52.495372+00:00"}
+{"abandoned_jobs": ["49151068-c39b-4bf2-ae79-656933c4f3dc"], "event": "sigkill", "pid": 25365, "returncode": -9, "slot": 6, "time": "2026-11-10 10:37:54.587023+00:00"}
+{"event": "process_started", "name": "worker-6-2", "pid": 25470, "time": "2026-11-10 10:37:54.597945+00:00"}
+{"abandoned_jobs": ["f7d2cc45-f29f-46be-a5ee-f18ec0dd85f0"], "event": "sigkill", "pid": 25455, "returncode": -9, "slot": 0, "time": "2026-11-10 10:37:56.637832+00:00"}
+{"event": "process_started", "name": "worker-0-3", "pid": 25482, "time": "2026-11-10 10:37:56.643966+00:00"}
+{"abandoned_jobs": ["9c2c75b0-bb55-4cf5-8a33-922c0ffd7205"], "event": "sigkill", "pid": 25467, "returncode": -9, "slot": 7, "time": "2026-11-10 10:37:58.726920+00:00"}
+{"event": "process_started", "name": "worker-7-4", "pid": 25489, "time": "2026-11-10 10:37:58.737640+00:00"}
+{"abandoned_jobs": ["348dc5f9-41ac-489a-bf0b-fe76dc10325e"], "event": "sigkill", "pid": 25470, "returncode": -9, "slot": 6, "time": "2026-11-10 10:38:00.829558+00:00"}
+{"event": "process_started", "name": "worker-6-3", "pid": 25492, "time": "2026-11-10 10:38:00.837285+00:00"}
+{"abandoned_jobs": [], "event": "sigkill", "pid": 25489, "returncode": -9, "slot": 7, "time": "2026-11-10 10:38:02.922651+00:00"}
+{"event": "process_started", "name": "worker-7-5", "pid": 25507, "time": "2026-11-10 10:38:02.936648+00:00"}
+{"abandoned_jobs": ["8173ebc6-0918-417c-bbf0-abf0c5606f3f"], "event": "sigkill", "pid": 25437, "returncode": -9, "slot": 2, "time": "2026-11-10 10:38:05.195184+00:00"}
+{"event": "process_started", "name": "worker-2-4", "pid": 25510, "time": "2026-11-10 10:38:05.208738+00:00"}
+{"abandoned_jobs": [], "event": "sigkill", "pid": 25492, "returncode": -9, "slot": 6, "time": "2026-11-10 10:38:07.250380+00:00"}
+{"event": "process_started", "name": "worker-6-4", "pid": 25517, "time": "2026-11-10 10:38:07.255474+00:00"}
+{"event": "submission_complete", "time": "2026-11-10 10:38:08.027597+00:00", "unique_jobs": 10000}
+{"event": "progress", "kills": 17, "states": {"cancelled": 910, "failed": 133, "queued": 4161, "running": 7, "succeeded": 4789}, "time": "2026-11-10 10:38:08.033688+00:00"}
+{"event": "progress", "kills": 17, "states": {"cancelled": 913, "failed": 136, "queued": 4019, "running": 8, "succeeded": 4924}, "time": "2026-11-10 10:38:09.041163+00:00"}
+{"abandoned_jobs": ["ec3c9522-4b93-4324-911f-fcb96797342a"], "event": "sigkill", "pid": 25452, "returncode": -9, "slot": 5, "time": "2026-11-10 10:38:09.259257+00:00"}
+{"event": "process_started", "name": "worker-5-3", "pid": 25525, "time": "2026-11-10 10:38:09.262438+00:00"}
+{"event": "progress", "kills": 18, "states": {"cancelled": 917, "failed": 140, "queued": 3886, "running": 9, "succeeded": 5048}, "time": "2026-11-10 10:38:10.050264+00:00"}
+{"event": "progress", "kills": 18, "states": {"cancelled": 920, "failed": 146, "queued": 3744, "running": 9, "succeeded": 5181}, "time": "2026-11-10 10:38:11.055959+00:00"}
+{"abandoned_jobs": ["911d823b-a28d-4b0b-88d5-1729855c684e"], "event": "sigkill", "pid": 25510, "returncode": -9, "slot": 2, "time": "2026-11-10 10:38:11.265112+00:00"}
+{"event": "process_started", "name": "worker-2-5", "pid": 25527, "time": "2026-11-10 10:38:11.267798+00:00"}
+{"event": "progress", "kills": 19, "states": {"cancelled": 924, "failed": 147, "queued": 3615, "running": 9, "succeeded": 5305}, "time": "2026-11-10 10:38:12.062113+00:00"}
+{"event": "progress", "kills": 19, "states": {"cancelled": 928, "failed": 150, "queued": 3498, "running": 7, "succeeded": 5417}, "time": "2026-11-10 10:38:13.067437+00:00"}
+{"abandoned_jobs": ["b0dde5ec-e347-4979-9b92-66576d5d9dda"], "event": "sigkill", "pid": 25482, "returncode": -9, "slot": 0, "time": "2026-11-10 10:38:13.271543+00:00"}
+{"event": "process_started", "name": "worker-0-4", "pid": 25535, "time": "2026-11-10 10:38:13.274189+00:00"}
+{"event": "progress", "kills": 20, "states": {"cancelled": 932, "failed": 155, "queued": 3384, "running": 9, "succeeded": 5520}, "time": "2026-11-10 10:38:14.073387+00:00"}
+{"event": "progress", "kills": 20, "states": {"cancelled": 935, "failed": 159, "queued": 3268, "running": 6, "succeeded": 5632}, "time": "2026-11-10 10:38:15.078518+00:00"}
+{"abandoned_jobs": ["0ac991cb-4efe-4a60-8871-bc9b9a63f103"], "event": "sigkill", "pid": 25360, "returncode": -9, "slot": 1, "time": "2026-11-10 10:38:15.278080+00:00"}
+{"event": "process_started", "name": "worker-1-2", "pid": 25537, "time": "2026-11-10 10:38:15.282045+00:00"}
+{"event": "progress", "kills": 21, "states": {"cancelled": 939, "failed": 161, "queued": 3159, "running": 8, "succeeded": 5733}, "time": "2026-11-10 10:38:16.084176+00:00"}
+{"event": "progress", "kills": 21, "states": {"cancelled": 943, "failed": 165, "queued": 3045, "running": 8, "succeeded": 5839}, "time": "2026-11-10 10:38:17.089572+00:00"}
+{"abandoned_jobs": ["0ac991cb-4efe-4a60-8871-bc9b9a63f103"], "event": "sigkill", "pid": 25398, "returncode": -9, "slot": 4, "time": "2026-11-10 10:38:17.285613+00:00"}
+{"event": "process_started", "name": "worker-4-3", "pid": 25556, "time": "2026-11-10 10:38:17.288379+00:00"}
+{"event": "progress", "kills": 22, "states": {"cancelled": 946, "failed": 168, "queued": 2929, "running": 6, "succeeded": 5951}, "time": "2026-11-10 10:38:18.094284+00:00"}
+{"event": "progress", "kills": 22, "states": {"cancelled": 949, "failed": 170, "queued": 2810, "running": 8, "succeeded": 6063}, "time": "2026-11-10 10:38:19.099617+00:00"}
+{"abandoned_jobs": ["ea26dc2d-f57b-446e-9ffa-d66b0faead5d"], "event": "sigkill", "pid": 25535, "returncode": -9, "slot": 0, "time": "2026-11-10 10:38:19.290958+00:00"}
+{"event": "process_started", "name": "worker-0-5", "pid": 25558, "time": "2026-11-10 10:38:19.294321+00:00"}
+{"event": "progress", "kills": 23, "states": {"cancelled": 954, "failed": 173, "queued": 2695, "running": 7, "succeeded": 6171}, "time": "2026-11-10 10:38:20.106089+00:00"}
+{"event": "progress", "kills": 23, "states": {"cancelled": 958, "failed": 180, "queued": 2580, "running": 8, "succeeded": 6274}, "time": "2026-11-10 10:38:21.140600+00:00"}
+{"abandoned_jobs": ["ff6d59b5-e573-4d41-9915-6ca3ccf877bf"], "event": "sigkill", "pid": 25507, "returncode": -9, "slot": 7, "time": "2026-11-10 10:38:21.298444+00:00"}
+{"event": "process_started", "name": "worker-7-6", "pid": 25560, "time": "2026-11-10 10:38:21.302211+00:00"}
+{"event": "progress", "kills": 24, "states": {"cancelled": 962, "failed": 182, "queued": 2477, "running": 6, "succeeded": 6373}, "time": "2026-11-10 10:38:22.158640+00:00"}
+{"event": "progress", "kills": 24, "states": {"cancelled": 965, "failed": 185, "queued": 2355, "running": 8, "succeeded": 6487}, "time": "2026-11-10 10:38:23.163308+00:00"}
+{"abandoned_jobs": ["2adc7b00-0b47-45af-956f-4dc9ad520695"], "event": "sigkill", "pid": 25560, "returncode": -9, "slot": 7, "time": "2026-11-10 10:38:23.305832+00:00"}
+{"event": "process_started", "name": "worker-7-7", "pid": 25567, "time": "2026-11-10 10:38:23.308569+00:00"}
+{"event": "progress", "kills": 25, "states": {"cancelled": 967, "failed": 185, "queued": 2244, "running": 6, "succeeded": 6598}, "time": "2026-11-10 10:38:24.168947+00:00"}
+{"event": "progress", "kills": 25, "states": {"cancelled": 970, "failed": 189, "queued": 2130, "running": 8, "succeeded": 6703}, "time": "2026-11-10 10:38:25.174087+00:00"}
+{"abandoned_jobs": ["82a3afee-a160-4cc3-95e6-02d50e759f56"], "event": "sigkill", "pid": 25567, "returncode": -9, "slot": 7, "time": "2026-11-10 10:38:25.313487+00:00"}
+{"event": "process_started", "name": "worker-7-8", "pid": 25570, "time": "2026-11-10 10:38:25.316877+00:00"}
+{"event": "progress", "kills": 26, "states": {"cancelled": 975, "failed": 190, "queued": 2022, "running": 8, "succeeded": 6805}, "time": "2026-11-10 10:38:26.179870+00:00"}
+{"event": "progress", "kills": 26, "states": {"cancelled": 978, "failed": 191, "queued": 1903, "running": 5, "succeeded": 6923}, "time": "2026-11-10 10:38:27.186393+00:00"}
+{"abandoned_jobs": ["79876d3a-51b8-4c87-b764-39d95f5d0b20"], "event": "sigkill", "pid": 25556, "returncode": -9, "slot": 4, "time": "2026-11-10 10:38:27.321004+00:00"}
+{"event": "process_started", "name": "worker-4-4", "pid": 25577, "time": "2026-11-10 10:38:27.324165+00:00"}
+{"event": "progress", "kills": 27, "states": {"cancelled": 983, "failed": 198, "queued": 1798, "running": 7, "succeeded": 7014}, "time": "2026-11-10 10:38:28.191437+00:00"}
+{"event": "progress", "kills": 27, "states": {"cancelled": 985, "failed": 200, "queued": 1680, "running": 9, "succeeded": 7126}, "time": "2026-11-10 10:38:29.196847+00:00"}
+{"abandoned_jobs": [], "event": "sigkill", "pid": 25570, "returncode": -9, "slot": 7, "time": "2026-11-10 10:38:29.327278+00:00"}
+{"event": "process_started", "name": "worker-7-9", "pid": 25579, "time": "2026-11-10 10:38:29.331162+00:00"}
+{"event": "progress", "kills": 28, "states": {"cancelled": 989, "failed": 201, "queued": 1572, "running": 6, "succeeded": 7232}, "time": "2026-11-10 10:38:30.202485+00:00"}
+{"event": "progress", "kills": 28, "states": {"cancelled": 994, "failed": 207, "queued": 1453, "running": 7, "succeeded": 7339}, "time": "2026-11-10 10:38:31.208996+00:00"}
+{"abandoned_jobs": [], "event": "sigkill", "pid": 25558, "returncode": -9, "slot": 0, "time": "2026-11-10 10:38:31.333712+00:00"}
+{"event": "process_started", "name": "worker-0-6", "pid": 25582, "time": "2026-11-10 10:38:31.336512+00:00"}
+{"event": "progress", "kills": 29, "states": {"cancelled": 998, "failed": 211, "queued": 1336, "running": 4, "succeeded": 7451}, "time": "2026-11-10 10:38:32.216016+00:00"}
+{"event": "progress", "kills": 29, "states": {"cancelled": 1002, "failed": 213, "queued": 1227, "running": 5, "succeeded": 7553}, "time": "2026-11-10 10:38:33.223925+00:00"}
+{"abandoned_jobs": [], "event": "sigkill", "pid": 25582, "returncode": -9, "slot": 0, "time": "2026-11-10 10:38:33.341829+00:00"}
+{"event": "process_started", "name": "worker-0-7", "pid": 25600, "time": "2026-11-10 10:38:33.347647+00:00"}
+{"event": "progress", "kills": 30, "states": {"cancelled": 1007, "failed": 215, "queued": 1124, "running": 6, "succeeded": 7648}, "time": "2026-11-10 10:38:34.230495+00:00"}
+{"event": "progress", "kills": 30, "states": {"cancelled": 1011, "failed": 220, "queued": 1009, "running": 8, "succeeded": 7752}, "time": "2026-11-10 10:38:35.238403+00:00"}
+{"abandoned_jobs": ["227841e8-478d-445d-a326-854c949cfee9"], "event": "sigkill", "pid": 25423, "returncode": -9, "slot": 3, "time": "2026-11-10 10:38:35.353337+00:00"}
+{"event": "process_started", "name": "worker-3-5", "pid": 25604, "time": "2026-11-10 10:38:35.357569+00:00"}
+{"event": "progress", "kills": 31, "states": {"cancelled": 1014, "failed": 221, "queued": 916, "running": 4, "succeeded": 7845}, "time": "2026-11-10 10:38:36.268578+00:00"}
+{"event": "progress", "kills": 31, "states": {"cancelled": 1017, "failed": 226, "queued": 808, "running": 8, "succeeded": 7941}, "time": "2026-11-10 10:38:37.275581+00:00"}
+{"abandoned_jobs": ["3a630a62-397a-46ac-b9b1-d9473284be7d"], "event": "sigkill", "pid": 25577, "returncode": -9, "slot": 4, "time": "2026-11-10 10:38:37.363767+00:00"}
+{"event": "process_started", "name": "worker-4-5", "pid": 25612, "time": "2026-11-10 10:38:37.367773+00:00"}
+{"event": "progress", "kills": 32, "states": {"cancelled": 1020, "failed": 228, "queued": 706, "running": 7, "succeeded": 8039}, "time": "2026-11-10 10:38:38.280626+00:00"}
+{"event": "progress", "kills": 32, "states": {"cancelled": 1023, "failed": 229, "queued": 593, "running": 5, "succeeded": 8150}, "time": "2026-11-10 10:38:39.285526+00:00"}
+{"abandoned_jobs": ["d3bf6cfb-e46a-4e00-b899-2d96049db529"], "event": "sigkill", "pid": 25527, "returncode": -9, "slot": 2, "time": "2026-11-10 10:38:39.372661+00:00"}
+{"event": "process_started", "name": "worker-2-6", "pid": 25615, "time": "2026-11-10 10:38:39.375364+00:00"}
+{"event": "progress", "kills": 33, "states": {"cancelled": 1027, "failed": 231, "queued": 483, "running": 7, "succeeded": 8252}, "time": "2026-11-10 10:38:40.291696+00:00"}
+{"event": "progress", "kills": 33, "states": {"cancelled": 1031, "failed": 236, "queued": 368, "running": 7, "succeeded": 8358}, "time": "2026-11-10 10:38:41.297952+00:00"}
+{"abandoned_jobs": ["13de64d7-8637-4704-8ad7-ee9b86348573"], "event": "sigkill", "pid": 25604, "returncode": -9, "slot": 3, "time": "2026-11-10 10:38:41.380674+00:00"}
+{"event": "process_started", "name": "worker-3-6", "pid": 25618, "time": "2026-11-10 10:38:41.383502+00:00"}
+{"event": "progress", "kills": 34, "states": {"cancelled": 1033, "failed": 238, "queued": 253, "running": 6, "succeeded": 8470}, "time": "2026-11-10 10:38:42.304390+00:00"}
+{"event": "progress", "kills": 34, "states": {"cancelled": 1037, "failed": 241, "queued": 136, "running": 7, "succeeded": 8579}, "time": "2026-11-10 10:38:43.310242+00:00"}
+{"abandoned_jobs": ["13de64d7-8637-4704-8ad7-ee9b86348573"], "event": "sigkill", "pid": 25525, "returncode": -9, "slot": 5, "time": "2026-11-10 10:38:43.387541+00:00"}
+{"event": "process_started", "name": "worker-5-4", "pid": 25625, "time": "2026-11-10 10:38:43.390258+00:00"}
+{"event": "progress", "kills": 35, "states": {"cancelled": 1042, "failed": 244, "queued": 30, "running": 7, "succeeded": 8677}, "time": "2026-11-10 10:38:44.315257+00:00"}
+{"event": "progress", "kills": 35, "states": {"cancelled": 1043, "failed": 245, "running": 1, "succeeded": 8711}, "time": "2026-11-10 10:38:45.320743+00:00"}
+{"abandoned_jobs": [], "event": "sigkill", "pid": 25537, "returncode": -9, "slot": 1, "time": "2026-11-10 10:38:45.395353+00:00"}
+{"event": "process_started", "name": "worker-1-3", "pid": 25627, "time": "2026-11-10 10:38:45.400036+00:00"}
+{"event": "progress", "kills": 36, "states": {"cancelled": 1043, "failed": 245, "succeeded": 8712}, "time": "2026-11-10 10:38:46.327837+00:00"}
+{"ambiguous_creation_receipts": 0, "attempts": 9128, "effects": 8712, "event": "audit", "expired_attempts": 30, "final_reads": 10000, "job_completion_seconds": {"p95": 34.792, "p99": 36.005}, "jobs": 10000, "max_sampled_queued_during_load": 0, "operations": {"cancel_200": 1043, "cancel_409": 112, "create": 10000, "duplicate": 2681, "targeted_running_cancel": 269}, "post_latency_ms": {"p50": 63.473, "p95": 331.614, "p99": 544.11}, "scheduled_to_response_ms": {"p95": null, "p99": null}, "scheduler_lag_ms_p99": null, "sigkills": 36, "states": {"cancelled": 1043, "failed": 245, "succeeded": 8712}, "time": "2026-11-10 10:39:15.696175+00:00", "transport_errors": 0, "violations": [], "worker_processes_started": 44, "workers": 8}
+{"ambiguous_creation_receipts": 0, "arguments": {"drain_timeout": 300, "jobs": 10000, "kill_interval": 2, "mode": "chaos", "rps": 100, "seconds": 60, "seed": 20261114, "workers": 8}, "attempts": 9128, "effects": 8712, "elapsed_seconds": 105.096, "event": "finished", "expired_attempts": 30, "final_reads": 10000, "job_completion_seconds": {"p95": 34.792, "p99": 36.005}, "jobs": 10000, "max_sampled_queued_during_load": 0, "operations": {"cancel_200": 1043, "cancel_409": 112, "create": 10000, "duplicate": 2681, "targeted_running_cancel": 269}, "passed": true, "post_latency_ms": {"p50": 63.473, "p95": 331.614, "p99": 544.11}, "run_id": "20261110T103730-chaos-1baf394c", "scheduled_to_response_ms": {"p95": null, "p99": null}, "scheduler_lag_ms_p99": null, "sigkills": 36, "states": {"cancelled": 1043, "failed": 245, "succeeded": 8712}, "time": "2026-11-10 10:39:15.864017+00:00", "transport_errors": 0, "violations": [], "worker_processes_started": 44, "workers": 8}

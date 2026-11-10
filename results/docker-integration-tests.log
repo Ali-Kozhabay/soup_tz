@@ -1,0 +1,102 @@
+ Container soup-queue-verification-postgres-1  Running
+time="2026-11-10T16:05:10+05:00" level=warning msg="Docker Compose is configured to build using Bake, but buildx isn't installed"
+#0 building with "default" instance using docker driver
+
+#1 [test internal] load build definition from Dockerfile
+#1 transferring dockerfile: 937B done
+#1 DONE 0.0s
+
+#2 [test internal] load metadata for docker.io/library/python:3.12-slim
+#2 DONE 0.0s
+
+#3 [test internal] load metadata for ghcr.io/astral-sh/uv:0.11.8
+#3 DONE 1.0s
+
+#4 [test internal] load .dockerignore
+#4 transferring context: 136B done
+#4 DONE 0.0s
+
+#5 [test internal] load build context
+#5 transferring context: 193.44kB done
+#5 DONE 0.0s
+
+#6 [test] FROM ghcr.io/astral-sh/uv:0.11.8@sha256:3b7b60a81d3c57ef471703e5c83fd4aaa33abcd403596fb22ab07db85ae91347
+#6 resolve ghcr.io/astral-sh/uv:0.11.8@sha256:3b7b60a81d3c57ef471703e5c83fd4aaa33abcd403596fb22ab07db85ae91347 0.0s done
+#6 DONE 0.0s
+
+#7 [test builder 1/7] FROM docker.io/library/python:3.12-slim@sha256:d764629ce0ddd8c71fd371e9901efb324a95789d2315a47db7e4d27e78f1b0e9
+#7 resolve docker.io/library/python:3.12-slim@sha256:d764629ce0ddd8c71fd371e9901efb324a95789d2315a47db7e4d27e78f1b0e9 0.0s done
+#7 DONE 0.0s
+
+#8 [test builder 6/7] COPY src ./src
+#8 CACHED
+
+#9 [test builder 3/7] WORKDIR /app
+#9 CACHED
+
+#10 [test builder 4/7] COPY pyproject.toml uv.lock ./
+#10 CACHED
+
+#11 [test builder 5/7] RUN uv sync --frozen --no-dev --no-install-project
+#11 CACHED
+
+#12 [test builder 2/7] COPY --from=ghcr.io/astral-sh/uv:0.11.8 /uv /usr/local/bin/uv
+#12 CACHED
+
+#13 [test builder 7/7] RUN uv sync --frozen --no-dev
+#13 CACHED
+
+#14 [test tools 1/5] RUN uv sync --frozen
+#14 0.588 Downloading pygments (1.2MiB)
+#14 0.669 Downloading mypy (13.1MiB)
+#14 0.670 Downloading ruff (9.7MiB)
+#14 1.151  Downloaded pygments
+#14 1.695  Downloaded ruff
+#14 2.024  Downloaded mypy
+#14 2.024 Prepared 13 packages in 1.93s
+#14 2.510 Installed 13 packages in 485ms
+#14 3.312 Bytecode compiled 1906 files in 802ms
+#14 3.312  + coverage==7.17.2
+#14 3.312  + iniconfig==2.3.1
+#14 3.312  + librt==0.16.0
+#14 3.312  + mypy==1.20.2
+#14 3.312  + mypy-extensions==1.2.0
+#14 3.312  + packaging==26.3
+#14 3.312  + pathspec==1.1.1
+#14 3.312  + pluggy==1.7.0
+#14 3.312  + pygments==2.21.0
+#14 3.312  + pytest==9.2.0
+#14 3.312  + pytest-asyncio==1.4.1.post1
+#14 3.312  + pytest-cov==7.1.0
+#14 3.312  + ruff==0.17.4
+#14 DONE 3.4s
+
+#15 [test tools 2/5] COPY alembic.ini ./
+#15 DONE 0.0s
+
+#16 [test tools 3/5] COPY migrations ./migrations
+#16 DONE 0.0s
+
+#17 [test tools 4/5] COPY scripts ./scripts
+#17 DONE 0.0s
+
+#18 [test tools 5/5] COPY tests ./tests
+#18 DONE 0.0s
+
+#19 [test] exporting to image
+#19 exporting layers
+#19 exporting layers 5.2s done
+#19 exporting manifest sha256:0fbd6f7e0f0d65f3d56464d0971733a3a6f76f8daf0b75dc59439c26f63c8060 done
+#19 exporting config sha256:391bd04ac32959d9b3f2b2d4ab295190512d45826cf87e028ad319ece1a5c58a done
+#19 exporting attestation manifest sha256:88cfb254cee6118c7c67ed0faccdb4b352946437703d9f85d63b434ea3370a38 done
+#19 exporting manifest list sha256:10c7ca6457be4e6bc90d46c3d0b829ff5a563284c542648869e58b3c31c01a92 done
+#19 naming to docker.io/library/soup-queue-verification-test:latest done
+#19 unpacking to docker.io/library/soup-queue-verification-test:latest
+#19 unpacking to docker.io/library/soup-queue-verification-test:latest 2.4s done
+#19 DONE 7.6s
+
+#20 [test] resolving provenance for metadata file
+#20 DONE 0.0s
+time="2026-11-10T16:05:10+05:00" level=warning msg="current commit information was not captured by the build" error="failed to get git commit: fatal: bad object HEAD"
+......................                                                   [100%]
+22 passed in 4.23s

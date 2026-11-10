@@ -1,0 +1,78 @@
+{"arguments": {"drain_timeout": 300, "jobs": 10000, "kill_interval": 2, "mode": "load", "rps": 100.0, "seconds": 60.0, "seed": 20261110, "workers": 8}, "event": "start", "platform": "macOS-27.2-arm64-arm-64bit", "python": "3.12.13 (main, Apr 14 2026, 14:33:40) [Clang 22.1.3 ]", "time": "2026-11-10 06:54:50.979073+00:00"}
+{"event": "process_started", "name": "migration", "pid": 9694, "time": "2026-11-10 06:54:51.038306+00:00"}
+{"event": "database", "isolation": "read committed", "time": "2026-11-10 06:54:51.311875+00:00", "version": "PostgreSQL 17.6 (Homebrew) on aarch64-apple-darwin24.4.0, compiled by Apple clang version 17.0.0 (clang-1700.0.13.3), 64-bit"}
+{"event": "process_started", "name": "api", "pid": 9698, "time": "2026-11-10 06:54:51.315253+00:00"}
+{"event": "api_ready", "health": {"database": "up", "redis": "up", "status": "ok"}, "time": "2026-11-10 06:54:51.667035+00:00"}
+{"event": "process_started", "name": "worker-0-1", "pid": 9702, "time": "2026-11-10 06:54:51.669631+00:00"}
+{"event": "process_started", "name": "worker-1-1", "pid": 9703, "time": "2026-11-10 06:54:51.671653+00:00"}
+{"event": "process_started", "name": "worker-2-1", "pid": 9704, "time": "2026-11-10 06:54:51.673558+00:00"}
+{"event": "process_started", "name": "worker-3-1", "pid": 9705, "time": "2026-11-10 06:54:51.675395+00:00"}
+{"event": "process_started", "name": "worker-4-1", "pid": 9706, "time": "2026-11-10 06:54:51.677141+00:00"}
+{"event": "process_started", "name": "worker-5-1", "pid": 9707, "time": "2026-11-10 06:54:51.680182+00:00"}
+{"event": "process_started", "name": "worker-6-1", "pid": 9708, "time": "2026-11-10 06:54:51.683938+00:00"}
+{"event": "process_started", "name": "worker-7-1", "pid": 9709, "time": "2026-11-10 06:54:51.688362+00:00"}
+{"elapsed": 0.005842750000738306, "event": "load_sample", "states": {}, "time": "2026-11-10 06:54:51.694477+00:00"}
+{"elapsed": 1.0076388330016925, "event": "load_sample", "states": {"running": 6, "succeeded": 95}, "time": "2026-11-10 06:54:52.696270+00:00"}
+{"elapsed": 2.009615124999982, "event": "load_sample", "states": {"running": 7, "succeeded": 194}, "time": "2026-11-10 06:54:53.698244+00:00"}
+{"elapsed": 3.0121711249994405, "event": "load_sample", "states": {"running": 7, "succeeded": 294}, "time": "2026-11-10 06:54:54.700798+00:00"}
+{"elapsed": 4.014251083001, "event": "load_sample", "states": {"queued": 1, "running": 6, "succeeded": 395}, "time": "2026-11-10 06:54:55.702877+00:00"}
+{"elapsed": 5.0159569999996165, "event": "load_sample", "states": {"running": 6, "succeeded": 496}, "time": "2026-11-10 06:54:56.704581+00:00"}
+{"elapsed": 6.017500707999716, "event": "load_sample", "states": {"running": 4, "succeeded": 598}, "time": "2026-11-10 06:54:57.706124+00:00"}
+{"elapsed": 7.019397083000513, "event": "load_sample", "states": {"running": 4, "succeeded": 698}, "time": "2026-11-10 06:54:58.708018+00:00"}
+{"elapsed": 8.021906040998147, "event": "load_sample", "states": {"running": 5, "succeeded": 797}, "time": "2026-11-10 06:54:59.710525+00:00"}
+{"elapsed": 9.023418290998961, "event": "load_sample", "states": {"running": 4, "succeeded": 898}, "time": "2026-11-10 06:55:00.712036+00:00"}
+{"elapsed": 10.025676707999082, "event": "load_sample", "states": {"queued": 1, "running": 5, "succeeded": 997}, "time": "2026-11-10 06:55:01.714293+00:00"}
+{"elapsed": 11.027232707998337, "event": "load_sample", "states": {"running": 4, "succeeded": 1099}, "time": "2026-11-10 06:55:02.715848+00:00"}
+{"elapsed": 12.029034874998615, "event": "load_sample", "states": {"running": 5, "succeeded": 1198}, "time": "2026-11-10 06:55:03.717648+00:00"}
+{"elapsed": 13.031727041001432, "event": "load_sample", "states": {"running": 7, "succeeded": 1296}, "time": "2026-11-10 06:55:04.720339+00:00"}
+{"elapsed": 14.033598124999116, "event": "load_sample", "states": {"running": 5, "succeeded": 1398}, "time": "2026-11-10 06:55:05.722209+00:00"}
+{"elapsed": 15.035939290999522, "event": "load_sample", "states": {"queued": 1, "running": 4, "succeeded": 1499}, "time": "2026-11-10 06:55:06.724548+00:00"}
+{"elapsed": 16.037992833000317, "event": "load_sample", "states": {"running": 5, "succeeded": 1599}, "time": "2026-11-10 06:55:07.726600+00:00"}
+{"elapsed": 17.04054837500007, "event": "load_sample", "states": {"running": 6, "succeeded": 1698}, "time": "2026-11-10 06:55:08.729154+00:00"}
+{"elapsed": 18.04292116600118, "event": "load_sample", "states": {"running": 7, "succeeded": 1797}, "time": "2026-11-10 06:55:09.731526+00:00"}
+{"elapsed": 19.045253583000886, "event": "load_sample", "states": {"queued": 1, "running": 5, "succeeded": 1899}, "time": "2026-11-10 06:55:10.733856+00:00"}
+{"elapsed": 20.04733166599908, "event": "load_sample", "states": {"running": 7, "succeeded": 1998}, "time": "2026-11-10 06:55:11.735933+00:00"}
+{"elapsed": 21.049065874998632, "event": "load_sample", "states": {"running": 4, "succeeded": 2101}, "time": "2026-11-10 06:55:12.737665+00:00"}
+{"elapsed": 22.05190004099859, "event": "load_sample", "states": {"running": 5, "succeeded": 2200}, "time": "2026-11-10 06:55:13.740498+00:00"}
+{"elapsed": 23.056203790998552, "event": "load_sample", "states": {"running": 5, "succeeded": 2300}, "time": "2026-11-10 06:55:14.744805+00:00"}
+{"elapsed": 24.058266541000194, "event": "load_sample", "states": {"running": 7, "succeeded": 2399}, "time": "2026-11-10 06:55:15.746861+00:00"}
+{"elapsed": 25.060809999999037, "event": "load_sample", "states": {"running": 6, "succeeded": 2500}, "time": "2026-11-10 06:55:16.749404+00:00"}
+{"elapsed": 26.06312216600054, "event": "load_sample", "states": {"running": 4, "succeeded": 2602}, "time": "2026-11-10 06:55:17.751714+00:00"}
+{"elapsed": 27.0656937499989, "event": "load_sample", "states": {"queued": 1, "running": 4, "succeeded": 2702}, "time": "2026-11-10 06:55:18.754284+00:00"}
+{"elapsed": 28.067775708001136, "event": "load_sample", "states": {"running": 6, "succeeded": 2801}, "time": "2026-11-10 06:55:19.756365+00:00"}
+{"elapsed": 29.069925166000758, "event": "load_sample", "states": {"running": 6, "succeeded": 2901}, "time": "2026-11-10 06:55:20.758512+00:00"}
+{"elapsed": 30.073083125000267, "event": "load_sample", "states": {"running": 6, "succeeded": 3001}, "time": "2026-11-10 06:55:21.761669+00:00"}
+{"elapsed": 31.07605916600005, "event": "load_sample", "states": {"queued": 1, "running": 5, "succeeded": 3102}, "time": "2026-11-10 06:55:22.764644+00:00"}
+{"elapsed": 32.07838304100005, "event": "load_sample", "states": {"running": 6, "succeeded": 3202}, "time": "2026-11-10 06:55:23.766966+00:00"}
+{"elapsed": 33.08114708300127, "event": "load_sample", "states": {"running": 5, "succeeded": 3303}, "time": "2026-11-10 06:55:24.769729+00:00"}
+{"elapsed": 34.083346874998824, "event": "load_sample", "states": {"running": 5, "succeeded": 3403}, "time": "2026-11-10 06:55:25.771927+00:00"}
+{"elapsed": 35.08591066599911, "event": "load_sample", "states": {"queued": 1, "running": 8, "succeeded": 3500}, "time": "2026-11-10 06:55:26.774489+00:00"}
+{"elapsed": 36.08836070799953, "event": "load_sample", "states": {"running": 6, "succeeded": 3603}, "time": "2026-11-10 06:55:27.776937+00:00"}
+{"elapsed": 37.09102154100037, "event": "load_sample", "states": {"running": 5, "succeeded": 3704}, "time": "2026-11-10 06:55:28.779597+00:00"}
+{"elapsed": 38.09374383300019, "event": "load_sample", "states": {"running": 6, "succeeded": 3803}, "time": "2026-11-10 06:55:29.782318+00:00"}
+{"elapsed": 39.09607374999905, "event": "load_sample", "states": {"queued": 1, "running": 8, "succeeded": 3901}, "time": "2026-11-10 06:55:30.784646+00:00"}
+{"elapsed": 40.098488125000586, "event": "load_sample", "states": {"running": 7, "succeeded": 4003}, "time": "2026-11-10 06:55:31.787059+00:00"}
+{"elapsed": 41.101402041000256, "event": "load_sample", "states": {"running": 5, "succeeded": 4105}, "time": "2026-11-10 06:55:32.789971+00:00"}
+{"elapsed": 42.104292374999204, "event": "load_sample", "states": {"running": 6, "succeeded": 4204}, "time": "2026-11-10 06:55:33.792860+00:00"}
+{"elapsed": 43.10730845799844, "event": "load_sample", "states": {"queued": 1, "running": 5, "succeeded": 4305}, "time": "2026-11-10 06:55:34.795875+00:00"}
+{"elapsed": 44.11134420799863, "event": "load_sample", "states": {"running": 6, "succeeded": 4405}, "time": "2026-11-10 06:55:35.799912+00:00"}
+{"elapsed": 45.11401758300053, "event": "load_sample", "states": {"running": 6, "succeeded": 4505}, "time": "2026-11-10 06:55:36.802581+00:00"}
+{"elapsed": 46.13022450000062, "event": "load_sample", "states": {"queued": 1, "running": 6, "succeeded": 4604}, "time": "2026-11-10 06:55:37.818787+00:00"}
+{"elapsed": 47.13347933299883, "event": "load_sample", "states": {"running": 6, "succeeded": 4707}, "time": "2026-11-10 06:55:38.822039+00:00"}
+{"elapsed": 48.13666812500014, "event": "load_sample", "states": {"running": 6, "succeeded": 4808}, "time": "2026-11-10 06:55:39.825227+00:00"}
+{"elapsed": 49.13970945799883, "event": "load_sample", "states": {"running": 5, "succeeded": 4909}, "time": "2026-11-10 06:55:40.828266+00:00"}
+{"elapsed": 50.14328625000053, "event": "load_sample", "states": {"running": 6, "succeeded": 5008}, "time": "2026-11-10 06:55:41.831842+00:00"}
+{"elapsed": 51.146457208000356, "event": "load_sample", "states": {"queued": 1, "running": 4, "succeeded": 5110}, "time": "2026-11-10 06:55:42.835011+00:00"}
+{"elapsed": 52.14926750000086, "event": "load_sample", "states": {"running": 6, "succeeded": 5209}, "time": "2026-11-10 06:55:43.837820+00:00"}
+{"elapsed": 53.1520676250002, "event": "load_sample", "states": {"running": 4, "succeeded": 5311}, "time": "2026-11-10 06:55:44.840618+00:00"}
+{"elapsed": 54.15646325000125, "event": "load_sample", "states": {"running": 5, "succeeded": 5410}, "time": "2026-11-10 06:55:45.845013+00:00"}
+{"elapsed": 55.159288625000045, "event": "load_sample", "states": {"running": 6, "succeeded": 5510}, "time": "2026-11-10 06:55:46.847836+00:00"}
+{"elapsed": 56.163777833000495, "event": "load_sample", "states": {"running": 6, "succeeded": 5610}, "time": "2026-11-10 06:55:47.852324+00:00"}
+{"elapsed": 57.16734733300109, "event": "load_sample", "states": {"queued": 1, "running": 3, "succeeded": 5713}, "time": "2026-11-10 06:55:48.855892+00:00"}
+{"elapsed": 58.17084091599827, "event": "load_sample", "states": {"running": 7, "succeeded": 5810}, "time": "2026-11-10 06:55:49.859384+00:00"}
+{"elapsed": 59.174713083000825, "event": "load_sample", "states": {"running": 5, "succeeded": 5912}, "time": "2026-11-10 06:55:50.863255+00:00"}
+{"count": 6000, "elapsed": 59.99598787500145, "event": "load_submitted", "time": "2026-11-10 06:55:51.684529+00:00"}
+{"event": "progress", "kills": 0, "states": {"running": 4, "succeeded": 5996}, "time": "2026-11-10 06:55:51.687384+00:00"}
+{"event": "progress", "kills": 0, "states": {"succeeded": 6000}, "time": "2026-11-10 06:55:52.698081+00:00"}
+{"ambiguous_creation_receipts": 0, "attempts": 6000, "effects": 6000, "event": "audit", "expired_attempts": 0, "final_reads": 6000, "job_completion_seconds": {"p95": 0.083, "p99": 0.149}, "jobs": 6000, "max_sampled_queued_during_load": 1, "operations": {"create": 6000}, "post_latency_ms": {"p50": 3.264, "p95": 3.967, "p99": 6.704}, "scheduled_to_response_ms": {"p95": 4.736, "p99": 7.76}, "scheduler_lag_ms_p99": 0.951, "sigkills": 0, "states": {"succeeded": 6000}, "time": "2026-11-10 06:56:04.944949+00:00", "transport_errors": 0, "violations": [], "worker_processes_started": 8, "workers": 8}
+{"ambiguous_creation_receipts": 0, "arguments": {"drain_timeout": 300, "jobs": 10000, "kill_interval": 2, "mode": "load", "rps": 100.0, "seconds": 60.0, "seed": 20261110, "workers": 8}, "attempts": 6000, "effects": 6000, "elapsed_seconds": 74.117, "event": "finished", "expired_attempts": 0, "final_reads": 6000, "job_completion_seconds": {"p95": 0.083, "p99": 0.149}, "jobs": 6000, "max_sampled_queued_during_load": 1, "operations": {"create": 6000}, "passed": true, "post_latency_ms": {"p50": 3.264, "p95": 3.967, "p99": 6.704}, "run_id": "20261110T065450-load-301688c3", "scheduled_to_response_ms": {"p95": 4.736, "p99": 7.76}, "scheduler_lag_ms_p99": 0.951, "sigkills": 0, "states": {"succeeded": 6000}, "time": "2026-11-10 06:56:05.152819+00:00", "transport_errors": 0, "violations": [], "worker_processes_started": 8, "workers": 8}

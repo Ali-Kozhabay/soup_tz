@@ -1,0 +1,274 @@
+time="2026-11-10T16:03:26+05:00" level=warning msg="Docker Compose is configured to build using Bake, but buildx isn't installed"
+#0 building with "default" instance using docker driver
+
+#1 [migrate internal] load build definition from Dockerfile
+#1 transferring dockerfile: 937B done
+#1 DONE 0.0s
+
+#2 [migrate internal] load metadata for docker.io/library/python:3.12-slim
+#2 DONE 0.0s
+
+#3 [migrate internal] load metadata for ghcr.io/astral-sh/uv:0.11.8
+#3 DONE 1.6s
+
+#4 [migrate internal] load .dockerignore
+#4 transferring context: 136B done
+#4 DONE 0.0s
+
+#5 [migrate internal] load build context
+#5 transferring context: 102.62kB 0.0s done
+#5 DONE 0.0s
+
+#6 [migrate] FROM ghcr.io/astral-sh/uv:0.11.8@sha256:3b7b60a81d3c57ef471703e5c83fd4aaa33abcd403596fb22ab07db85ae91347
+#6 resolve ghcr.io/astral-sh/uv:0.11.8@sha256:3b7b60a81d3c57ef471703e5c83fd4aaa33abcd403596fb22ab07db85ae91347 0.0s done
+#6 DONE 0.0s
+
+#7 [migrate builder 1/7] FROM docker.io/library/python:3.12-slim@sha256:d764629ce0ddd8c71fd371e9901efb324a95789d2315a47db7e4d27e78f1b0e9
+#7 resolve docker.io/library/python:3.12-slim@sha256:d764629ce0ddd8c71fd371e9901efb324a95789d2315a47db7e4d27e78f1b0e9 0.0s done
+#7 DONE 0.0s
+
+#8 [migrate builder 2/7] COPY --from=ghcr.io/astral-sh/uv:0.11.8 /uv /usr/local/bin/uv
+#8 CACHED
+
+#9 [migrate builder 3/7] WORKDIR /app
+#9 CACHED
+
+#10 [migrate builder 4/7] COPY pyproject.toml uv.lock ./
+#10 CACHED
+
+#11 [migrate builder 5/7] RUN uv sync --frozen --no-dev --no-install-project
+#11 CACHED
+
+#12 [migrate builder 6/7] COPY src ./src
+#12 DONE 0.0s
+
+#13 [migrate builder 7/7] RUN uv sync --frozen --no-dev
+#13 0.148    Building soup-queue @ file:///app
+#13 2.063       Built soup-queue @ file:///app
+#13 2.064 Prepared 1 package in 1.91s
+#13 2.066 Installed 1 package in 2ms
+#13 2.117 Bytecode compiled 1035 files in 50ms
+#13 2.117  + soup-queue==0.1.0 (from file:///app)
+#13 DONE 2.1s
+
+#14 [migrate runtime 2/7] RUN useradd --create-home --uid 10001 soup
+#14 CACHED
+
+#15 [migrate runtime 3/7] WORKDIR /app
+#15 CACHED
+
+#16 [migrate runtime 4/7] COPY --from=builder --chown=soup:soup /app/.venv /app/.venv
+#16 DONE 0.3s
+
+#17 [migrate runtime 5/7] COPY --chown=soup:soup src ./src
+#17 DONE 0.0s
+
+#18 [migrate runtime 6/7] COPY --chown=soup:soup alembic.ini ./
+#18 DONE 0.0s
+
+#19 [migrate runtime 7/7] COPY --chown=soup:soup migrations ./migrations
+#19 DONE 0.0s
+
+#20 [migrate] exporting to image
+#20 exporting layers
+#20 exporting layers 1.9s done
+#20 exporting manifest sha256:6ca840a49eb294f347081f245955e1a418710b6e40844f799c692f6ef975c386
+#20 exporting manifest sha256:6ca840a49eb294f347081f245955e1a418710b6e40844f799c692f6ef975c386 done
+#20 exporting config sha256:7e9fb5a0cfb87c2e27ee54d69543425ec5a530fc62f35a2c23370ab18cfc3def done
+#20 exporting attestation manifest sha256:e00e59e34f80f7a627fc0e082cc487a873991e058a920364107083f92958427c done
+#20 exporting manifest list sha256:923cc9cd2e9cb22f0e8f79dac21cd4e41d3b9dc7ef0d75d671f890cd7a76c94a done
+#20 naming to docker.io/library/soup-queue-verification-migrate:latest done
+#20 unpacking to docker.io/library/soup-queue-verification-migrate:latest
+#20 unpacking to docker.io/library/soup-queue-verification-migrate:latest 0.4s done
+#20 DONE 2.3s
+
+#21 [migrate] resolving provenance for metadata file
+#21 DONE 0.0s
+
+#22 [api internal] load build definition from Dockerfile
+#22 transferring dockerfile: 937B done
+#22 DONE 0.0s
+
+#23 [worker internal] load build definition from Dockerfile
+#23 transferring dockerfile: 937B done
+#23 DONE 0.0s
+
+#2 [api internal] load metadata for docker.io/library/python:3.12-slim
+#2 DONE 0.0s
+
+#3 [api internal] load metadata for ghcr.io/astral-sh/uv:0.11.8
+#3 DONE 1.9s
+
+#24 [api internal] load .dockerignore
+#24 transferring context: 136B done
+#24 DONE 0.0s
+
+#25 [worker internal] load .dockerignore
+#25 transferring context: 136B done
+#25 DONE 0.0s
+
+#26 [worker internal] load build context
+#26 transferring context: 7.87kB 0.0s done
+#26 DONE 0.0s
+
+#27 [api internal] load build context
+#27 transferring context: 102.62kB 0.0s done
+#27 DONE 0.0s
+
+#6 [worker] FROM ghcr.io/astral-sh/uv:0.11.8@sha256:3b7b60a81d3c57ef471703e5c83fd4aaa33abcd403596fb22ab07db85ae91347
+#6 resolve ghcr.io/astral-sh/uv:0.11.8@sha256:3b7b60a81d3c57ef471703e5c83fd4aaa33abcd403596fb22ab07db85ae91347 0.0s done
+#6 DONE 0.1s
+
+#7 [api builder 1/7] FROM docker.io/library/python:3.12-slim@sha256:d764629ce0ddd8c71fd371e9901efb324a95789d2315a47db7e4d27e78f1b0e9
+#7 resolve docker.io/library/python:3.12-slim@sha256:d764629ce0ddd8c71fd371e9901efb324a95789d2315a47db7e4d27e78f1b0e9 0.0s done
+#7 DONE 0.1s
+
+#28 [worker builder 4/7] COPY pyproject.toml uv.lock ./
+#28 CACHED
+
+#9 [worker builder 3/7] WORKDIR /app
+#9 CACHED
+
+#29 [worker runtime 6/7] COPY --chown=soup:soup alembic.ini ./
+#29 CACHED
+
+#30 [worker builder 5/7] RUN uv sync --frozen --no-dev --no-install-project
+#30 CACHED
+
+#8 [worker builder 2/7] COPY --from=ghcr.io/astral-sh/uv:0.11.8 /uv /usr/local/bin/uv
+#8 CACHED
+
+#31 [worker builder 7/7] RUN uv sync --frozen --no-dev
+#31 CACHED
+
+#32 [worker builder 6/7] COPY src ./src
+#32 CACHED
+
+#33 [worker runtime 5/7] COPY --chown=soup:soup src ./src
+#33 CACHED
+
+#15 [worker runtime 3/7] WORKDIR /app
+#15 CACHED
+
+#34 [worker runtime 4/7] COPY --from=builder --chown=soup:soup /app/.venv /app/.venv
+#34 CACHED
+
+#14 [worker runtime 2/7] RUN useradd --create-home --uid 10001 soup
+#14 CACHED
+
+#35 [api runtime 7/7] COPY --chown=soup:soup migrations ./migrations
+#35 CACHED
+
+#36 [api] exporting to image
+#36 exporting layers done
+#36 exporting manifest sha256:df426f90d17f429c6c78f18a37b884d65ebdac6296fd179d9af5b26ee10d93af done
+#36 exporting config sha256:19f7dacdb76663ca9639b4100bdaf0dff5041237e32527d69b14c26a4228d138 done
+#36 exporting attestation manifest sha256:a8c0682e40b0b7e1adc4e6116d5d1632b47f97acb3d13c860bc8c4eee097895b done
+#36 exporting manifest list sha256:e2de002826d87fa54ef1f9ce19073a622b19b9cfa80aebe80fb8840dd35a8425 done
+#36 naming to docker.io/library/soup-queue-verification-api:latest done
+#36 unpacking to docker.io/library/soup-queue-verification-api:latest done
+#36 DONE 0.0s
+
+#37 [worker] exporting to image
+#37 exporting layers done
+#37 exporting manifest sha256:9e1c2546f4d7acbf84c641494305f0d54d4222cce55e2312c7cdc3e1af8dcfbc done
+#37 exporting config sha256:6d3477ccb4664685512e20cd9e50024235626cb94cfe6c8237d03183c10c10b2 done
+#37 exporting attestation manifest sha256:9385e823f35a8bcf6691a63efb359665aa9c7ebf75b0da96970ddbc56097fb62 done
+#37 exporting manifest list sha256:d50902bc919bd9e6ac0a0ab5cbce5148aec1861a33e4dc9d0e4ee1f6eb2beea6 done
+#37 naming to docker.io/library/soup-queue-verification-worker:latest done
+#37 unpacking to docker.io/library/soup-queue-verification-worker:latest done
+#37 DONE 0.0s
+
+#38 [worker] resolving provenance for metadata file
+#38 DONE 0.0s
+
+#39 [api] resolving provenance for metadata file
+#39 DONE 0.0s
+time="2026-11-10T16:03:26+05:00" level=warning msg="current commit information was not captured by the build" error="failed to get git commit: fatal: bad object HEAD"
+time="2026-11-10T16:03:33+05:00" level=warning msg="current commit information was not captured by the build" error="failed to get git commit: fatal: bad object HEAD"
+time="2026-11-10T16:03:33+05:00" level=warning msg="current commit information was not captured by the build" error="failed to get git commit: fatal: bad object HEAD"
+ api  Built
+ migrate  Built
+ worker  Built
+ Network soup-queue-verification_default  Creating
+ Network soup-queue-verification_default  Created
+ Volume "soup-queue-verification_postgres-data"  Creating
+ Volume "soup-queue-verification_postgres-data"  Created
+ Container soup-queue-verification-redis-1  Creating
+ Container soup-queue-verification-postgres-1  Creating
+ Container soup-queue-verification-redis-1  Created
+ Container soup-queue-verification-postgres-1  Created
+ Container soup-queue-verification-migrate-1  Creating
+ Container soup-queue-verification-migrate-1  Created
+ Container soup-queue-verification-api-1  Creating
+ Container soup-queue-verification-worker-8  Creating
+ Container soup-queue-verification-worker-4  Creating
+ Container soup-queue-verification-worker-6  Creating
+ Container soup-queue-verification-worker-1  Creating
+ Container soup-queue-verification-worker-7  Creating
+ Container soup-queue-verification-worker-5  Creating
+ Container soup-queue-verification-worker-2  Creating
+ Container soup-queue-verification-worker-3  Creating
+ Container soup-queue-verification-worker-7  Created
+ Container soup-queue-verification-worker-5  Created
+ Container soup-queue-verification-worker-6  Created
+ Container soup-queue-verification-api-1  Created
+ Container soup-queue-verification-worker-2  Created
+ Container soup-queue-verification-worker-3  Created
+ Container soup-queue-verification-worker-4  Created
+ Container soup-queue-verification-worker-8  Created
+ Container soup-queue-verification-worker-1  Created
+ Container soup-queue-verification-redis-1  Starting
+ Container soup-queue-verification-postgres-1  Starting
+ Container soup-queue-verification-postgres-1  Started
+ Container soup-queue-verification-postgres-1  Waiting
+ Container soup-queue-verification-redis-1  Started
+ Container soup-queue-verification-postgres-1  Healthy
+ Container soup-queue-verification-migrate-1  Starting
+ Container soup-queue-verification-migrate-1  Started
+ Container soup-queue-verification-migrate-1  Waiting
+ Container soup-queue-verification-migrate-1  Waiting
+ Container soup-queue-verification-migrate-1  Exited
+ Container soup-queue-verification-migrate-1  Exited
+ Container soup-queue-verification-worker-2  Starting
+ Container soup-queue-verification-api-1  Starting
+ Container soup-queue-verification-worker-2  Started
+ Container soup-queue-verification-worker-3  Starting
+ Container soup-queue-verification-api-1  Started
+ Container soup-queue-verification-worker-3  Started
+ Container soup-queue-verification-worker-1  Starting
+ Container soup-queue-verification-worker-1  Started
+ Container soup-queue-verification-worker-8  Starting
+ Container soup-queue-verification-worker-8  Started
+ Container soup-queue-verification-worker-5  Starting
+ Container soup-queue-verification-worker-5  Started
+ Container soup-queue-verification-worker-6  Starting
+ Container soup-queue-verification-worker-6  Started
+ Container soup-queue-verification-worker-4  Starting
+ Container soup-queue-verification-worker-4  Started
+ Container soup-queue-verification-worker-7  Starting
+ Container soup-queue-verification-worker-7  Started
+ Container soup-queue-verification-worker-2  Waiting
+ Container soup-queue-verification-worker-3  Waiting
+ Container soup-queue-verification-worker-1  Waiting
+ Container soup-queue-verification-worker-8  Waiting
+ Container soup-queue-verification-worker-5  Waiting
+ Container soup-queue-verification-worker-6  Waiting
+ Container soup-queue-verification-worker-4  Waiting
+ Container soup-queue-verification-worker-7  Waiting
+ Container soup-queue-verification-postgres-1  Waiting
+ Container soup-queue-verification-redis-1  Waiting
+ Container soup-queue-verification-migrate-1  Waiting
+ Container soup-queue-verification-api-1  Waiting
+ Container soup-queue-verification-migrate-1  Exited
+ Container soup-queue-verification-worker-2  Healthy
+ Container soup-queue-verification-worker-3  Healthy
+ Container soup-queue-verification-worker-1  Healthy
+ Container soup-queue-verification-worker-8  Healthy
+ Container soup-queue-verification-worker-5  Healthy
+ Container soup-queue-verification-worker-6  Healthy
+ Container soup-queue-verification-worker-4  Healthy
+ Container soup-queue-verification-worker-7  Healthy
+ Container soup-queue-verification-redis-1  Healthy
+ Container soup-queue-verification-postgres-1  Healthy
+ Container soup-queue-verification-api-1  Healthy

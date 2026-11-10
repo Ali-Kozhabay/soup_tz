@@ -1,0 +1,26 @@
+......................                                                   [100%]
+================================ tests coverage ================================
+______________ coverage: platform darwin, python 3.12.13-final-0 _______________
+
+Name                                             Stmts   Miss Branch BrPart  Cover   Missing
+--------------------------------------------------------------------------------------------
+src/soup_queue/__init__.py                           0      0      0      0   100%
+src/soup_queue/api/__init__.py                       0      0      0      0   100%
+src/soup_queue/api/app.py                           94      4      2      0    96%   96, 108, 116-117
+src/soup_queue/api/schemas.py                       17      0      0      0   100%
+src/soup_queue/application/__init__.py               0      0      0      0   100%
+src/soup_queue/application/jobs.py                  14      0      2      0   100%
+src/soup_queue/config.py                            20      2      4      2    83%   21, 23
+src/soup_queue/domain/__init__.py                    0      0      0      0   100%
+src/soup_queue/domain/jobs.py                       43      0      0      0   100%
+src/soup_queue/infrastructure/__init__.py            0      0      0      0   100%
+src/soup_queue/infrastructure/cursors.py            25      2      6      2    87%   23, 26
+src/soup_queue/infrastructure/database.py            6      0      0      0   100%
+src/soup_queue/infrastructure/models.py             39      0      0      0   100%
+src/soup_queue/infrastructure/notifications.py      36     16      4      0    50%   26-35, 38-44
+src/soup_queue/infrastructure/repository.py        116      8     32      4    91%   57, 68, 69->73, 80-89, 95
+src/soup_queue/logging.py                           13     13      2      0     0%   1-22
+src/soup_queue/worker.py                            78     78     16      0     0%   1-107
+--------------------------------------------------------------------------------------------
+TOTAL                                              501    123     68      8    73%
+22 passed in 4.88s
